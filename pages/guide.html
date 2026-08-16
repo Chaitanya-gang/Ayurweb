@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AYURWEB - Ayurvedic Principles & Tridosha Educational Guide</title>
+  <meta name="description" content="Learn the fundamental principles of Ayurveda, Tridosha (Vata, Pitta, Kapha), Dinacharya (Daily Routine), and Ayurvedic Nutrition.">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+  <!-- Slide-Out Sidebar Navigation Drawer & Backdrop Overlay -->
+  <div class="sidebar-overlay" id="sidebarOverlay" onclick="closeNav()"></div>
+  <aside class="sidebar-drawer" id="sidebarDrawer" aria-label="Navigation Drawer">
+    <div class="sidebar-header">
+      <h3><i class="fas fa-leaf text-success me-2"></i> AYURWEB Menu</h3>
+      <button type="button" class="close-drawer-btn" onclick="closeNav()">&times;</button>
+    </div>
+    <ul class="sidebar-nav-list">
+      <li><a href="../index.html"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="categories.html"><i class="fas fa-th-large"></i> Health Categories</a></li>
+      <li><a href="guide.html" class="active"><i class="fas fa-book-medical"></i> Ayurveda Guide</a></li>
+      <li><a href="profile.html"><i class="fas fa-id-card"></i> Wellness Profile</a></li>
+      <li><a href="contact.html"><i class="fas fa-envelope-open-text"></i> Contact & Consult</a></li>
+    </ul>
+  </aside>
+
+  <!-- Page Wrapper Container -->
+  <div class="page-wrapper">
+
+    <!-- Glassmorphic Top Navigation Bar -->
+    <nav class="navbar-custom">
+      <a href="../index.html" class="brand-logo">
+        <i class="fas fa-leaf"></i>
+        <span>AYURWEB</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="guide.html" class="active">Ayurveda Guide</a></li>
+        <li><a href="profile.html">Health Profile</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button type="button" class="btn-theme-toggle" onclick="toggleDarkMode()" title="Toggle Dark/Light Mode">
+          <i class="fas fa-moon" id="themeToggleIcon"></i>
+        </button>
+        <button type="button" class="btn-menu-drawer" onclick="openNav()">
+          <i class="fas fa-bars"></i> Menu
+        </button>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="hero-section">
+      <div class="hero-badge">
+        <i class="fas fa-book"></i> Traditional Philosophy & Health Science
+      </div>
+      <h1 class="hero-title">
+        Understanding <span>Ayurvedic Principles</span>
+      </h1>
+      <p class="hero-subtitle">
+        Ayurveda, traditionally termed the "Science of Life", views health as a state of balance between mind, body, and environmental factors through the lens of the Three Doshas (Vata, Pitta, Kapha).
+      </p>
+    </header>
+
+    <!-- Tridosha Overview Cards -->
+    <h2 class="section-title"><i class="fas fa-balance-scale me-2 text-success"></i> The Three Doshas (Tridosha)</h2>
+    <div class="remedies-grid mb-4">
+
+      <!-- Vata Card -->
+      <div class="remedy-card tridosha-card-vata">
+        <div>
+          <div class="remedy-card-header">
+            <div class="remedy-icon-box tridosha-icon-vata"><i class="fas fa-wind"></i></div>
+            <div>
+              <h3>Vata Dosha</h3>
+              <span class="remedy-tag tridosha-tag-vata">Air & Ether Elements</span>
+            </div>
+          </div>
+          <p class="text-secondary mb-3 font-sm">
+            In traditional concepts, Vata governs bodily movement, nerve impulses, circulation, and breathing.
+          </p>
+          <ul class="text-secondary font-sm" style="padding-left: 18px;">
+            <li><strong>Qualities:</strong> Dry, light, cold, rough, subtle, mobile.</li>
+            <li><strong>Traditional Balance:</strong> Creative, energetic, flexible.</li>
+            <li><strong>Common Imbalance:</strong> Dryness, joint stiffness, restlessness, gas.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Pitta Card -->
+      <div class="remedy-card tridosha-card-pitta">
+        <div>
+          <div class="remedy-card-header">
+            <div class="remedy-icon-box tridosha-icon-pitta"><i class="fas fa-fire"></i></div>
+            <div>
+              <h3>Pitta Dosha</h3>
+              <span class="remedy-tag tridosha-tag-pitta">Fire & Water Elements</span>
+            </div>
+          </div>
+          <p class="text-secondary mb-3 font-sm">
+            In traditional concepts, Pitta governs metabolism, digestion (Agni), and body heat.
+          </p>
+          <ul class="text-secondary font-sm" style="padding-left: 18px;">
+            <li><strong>Qualities:</strong> Hot, sharp, light, liquid, oily.</li>
+            <li><strong>Traditional Balance:</strong> Focused, strong digestion, clear intellect.</li>
+            <li><strong>Common Imbalance:</strong> Acidity, skin heat/rashes, inflammation.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Kapha Card -->
+      <div class="remedy-card tridosha-card-kapha">
+        <div>
+          <div class="remedy-card-header">
+            <div class="remedy-icon-box tridosha-icon-kapha"><i class="fas fa-mountain"></i></div>
+            <div>
+              <h3>Kapha Dosha</h3>
+              <span class="remedy-tag tridosha-tag-kapha">Earth & Water Elements</span>
+            </div>
+          </div>
+          <p class="text-secondary mb-3 font-sm">
+            In traditional concepts, Kapha governs physical structure, lubrication, and tissue stamina.
+          </p>
+          <ul class="text-secondary font-sm" style="padding-left: 18px;">
+            <li><strong>Qualities:</strong> Heavy, slow, cool, oily, smooth, dense.</li>
+            <li><strong>Traditional Balance:</strong> Calm, strong physical endurance, stability.</li>
+            <li><strong>Common Imbalance:</strong> Weight gain, mucus congestion, sluggish digestion.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Dinacharya (Daily Routine) Section -->
+    <div class="condition-detail-card">
+      <h2 class="approach-title" style="font-size: 1.8rem;">
+        <i class="fas fa-sun me-2 text-warning"></i> Dinacharya: Traditional Ayurvedic Daily Habits
+      </h2>
+      <p class="text-secondary mb-4">
+        Maintaining a regular daily routine aligns physical habits with natural circadian rhythms to support digestion and sleep.
+      </p>
+
+      <div class="routine-grid">
+        <div class="remedy-info-box">
+          <h3><i class="fas fa-clock text-success"></i> Early Morning</h3>
+          <p class="approach-title">Brahma Muhurta Wakeup</p>
+          <p class="text-secondary font-sm">Wake early, perform oral hygiene, and drink warm water.</p>
+        </div>
+
+        <div class="remedy-info-box">
+          <h3><i class="fas fa-clock text-success"></i> Morning Movement</h3>
+          <p class="approach-title">Abhyanga & Yoga</p>
+          <p class="text-secondary font-sm">Warm oil self-massage followed by gentle stretching and breathing exercises.</p>
+        </div>
+
+        <div class="remedy-info-box">
+          <h3><i class="fas fa-clock text-success"></i> Midday</h3>
+          <p class="approach-title">Main Nourishing Meal</p>
+          <p class="text-secondary font-sm">Eat a wholesome, freshly prepared meal when digestion is active.</p>
+        </div>
+
+        <div class="remedy-info-box">
+          <h3><i class="fas fa-clock text-success"></i> Evening</h3>
+          <p class="approach-title">Night Rest</p>
+          <p class="text-secondary font-sm">Sip warm golden milk (turmeric), reduce screen light, and sleep comfortably.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dietary Matrix Table -->
+    <div class="condition-detail-card">
+      <h2 class="approach-title" style="font-size: 1.8rem;">
+        <i class="fas fa-utensils me-2 text-success"></i> Traditional Dosha Dietary Principles (Ahara)
+      </h2>
+      <div class="matrix-table-wrap">
+        <table class="matrix-table">
+          <thead>
+            <tr class="matrix-header">
+              <th>Dosha</th>
+              <th>Traditional Supportive Foods</th>
+              <th>Foods to Moderate</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="matrix-row">
+              <td class="matrix-cell-vata"><i class="fas fa-wind me-1"></i> Vata</td>
+              <td class="matrix-cell-content">Warm, cooked, moist foods, Ghee, Oats, Sweet potatoes, Avocados, Nuts.</td>
+              <td class="matrix-cell-content">Raw cold salads, dry crackers, iced drinks, excessive caffeine.</td>
+            </tr>
+            <tr class="matrix-row">
+              <td class="matrix-cell-pitta"><i class="fas fa-fire me-1"></i> Pitta</td>
+              <td class="matrix-cell-content">Cooling foods, Cucumber, Coconut water, Sweet fruits, Mint, Basmati rice.</td>
+              <td class="matrix-cell-content">Excessive hot chili, sour pickles, heavy fried grease, alcohol.</td>
+            </tr>
+            <tr>
+              <td class="matrix-cell-kapha"><i class="fas fa-mountain me-1"></i> Kapha</td>
+              <td class="matrix-cell-content">Warm, light, dry foods, warming spices, Honey, Quinoa, Legumes.</td>
+              <td class="matrix-cell-content">Heavy dairy, cold ice cream, excess oils, refined sugars.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Floating AI Assistant Chatbot Toggle & Window -->
+  <div class="chatbot-widget-toggle" onclick="toggleChat()">
+    <i class="fas fa-comment-medical"></i>
+    <span>Ayurvedic Assistant</span>
+  </div>
+
+  <div class="chatbot-window" id="chatbotWindow">
+    <div class="chatbot-header">
+      <div class="chatbot-header-info">
+        <i class="fas fa-user-md"></i>
+        <div>
+          <div class="chatbot-header-title">Ayurvedic Assistant</div>
+          <span class="font-xs" style="opacity: 0.9;">Online • Health Education</span>
+        </div>
+      </div>
+      <button type="button" class="chatbot-close-btn" onclick="toggleChat()">&times;</button>
+    </div>
+
+    <div class="chat-messages-body" id="chatMessagesBody">
+      <div class="chat-bubble chat-bubble-bot">
+        Namaste! Have questions about Vata, Pitta, Kapha, or Dinacharya daily habits? Ask me!
+      </div>
+    </div>
+
+    <div class="chat-input-area">
+      <input type="text" id="chatInputField" class="chat-input-field" placeholder="Type your health concern..." onkeypress="if(event.key==='Enter') sendChatMessage()">
+      <button type="button" class="chat-send-btn" onclick="sendChatMessage()">
+        <i class="fas fa-paper-plane"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Modular Scripts -->
+  <script src="../js/theme.js"></script>
+  <script src="../js/navigation.js"></script>
+  <script src="../js/chatbot.js"></script>
+  <script src="../js/app.js"></script>
+</body>
+</html>

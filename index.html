@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AYURWEB - Modern Ayurveda & Evidence-Based Health Education</title>
+  <meta name="description" content="Explore standardized Ayurvedic health information, symptoms, dietary recommendations, and safety evidence for 34 conditions.">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Slide-Out Sidebar Navigation Drawer (Mobile) -->
+  <div class="sidebar-overlay" id="sidebarOverlay" onclick="closeNav()"></div>
+  <aside class="sidebar-drawer" id="sidebarDrawer" aria-label="Navigation Drawer">
+    <div class="sidebar-header">
+      <h3><i class="fas fa-leaf text-success me-2"></i> AYURWEB</h3>
+      <button type="button" class="close-drawer-btn" onclick="closeNav()">&times;</button>
+    </div>
+    <ul class="sidebar-nav-list">
+      <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="pages/categories.html"><i class="fas fa-th-large"></i> Conditions</a></li>
+      <li><a href="pages/guide.html"><i class="fas fa-book-medical"></i> Ayurveda Guide</a></li>
+      <li><a href="pages/profile.html"><i class="fas fa-id-card"></i> Wellness Profile</a></li>
+      <li><a href="pages/contact.html"><i class="fas fa-envelope-open-text"></i> Contact & Consult</a></li>
+    </ul>
+  </aside>
+
+  <!-- Page Wrapper Container -->
+  <div class="page-wrapper">
+
+    <!-- Glassmorphic Sticky Top Navigation Bar -->
+    <nav class="navbar-custom">
+      <a href="index.html" class="brand-logo">
+        <i class="fas fa-leaf"></i>
+        <span>AYURWEB</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="pages/categories.html">Conditions</a></li>
+        <li><a href="pages/guide.html">Ayurveda Guide</a></li>
+        <li><a href="pages/profile.html">Wellness</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button type="button" class="btn-theme-toggle" onclick="toggleDarkMode()" title="Toggle Dark/Light Mode">
+          <i class="fas fa-moon" id="themeToggleIcon"></i>
+        </button>
+        <button type="button" class="btn-menu-drawer" onclick="openNav()">
+          <i class="fas fa-bars"></i> Menu
+        </button>
+      </div>
+    </nav>
+
+    <!-- SECTION 1 — Hero Section -->
+    <header class="hero-section">
+      <div class="hero-badge">
+        <i class="fas fa-microscope me-1"></i> Traditional Knowledge × Modern Evidence
+      </div>
+      <h1 class="hero-title">
+        Understand Your Health <span>Through Ayurveda & Evidence</span>
+      </h1>
+      <p class="hero-subtitle">
+        Explore 34 health conditions, traditional practices, dietary principles, and safety guidelines — structured for responsible health education.
+      </p>
+
+      <!-- Live Search Box -->
+      <div class="search-card">
+        <div class="search-input-wrapper">
+          <i class="fas fa-search search-icon"></i>
+          <input type="text" id="searchInput" class="search-input-field" placeholder="Search by condition, symptom, or herb (e.g. fever, acidity, tulsi)...">
+        </div>
+        <ul id="suggestionsDropdown" class="suggestions-dropdown"></ul>
+      </div>
+
+      <div class="condition-pills-grid">
+        <a href="pages/categories.html" class="btn-custom btn-primary-custom">
+          <i class="fas fa-th-large me-1"></i> Explore All 34 Conditions
+        </a>
+        <a href="pages/guide.html" class="btn-custom btn-secondary-custom">
+          <i class="fas fa-book-open me-1"></i> Ayurveda Principles Guide
+        </a>
+      </div>
+    </header>
+
+    <!-- SECTION 2 — 4 Quick Access Cards -->
+    <h2 class="section-title"><i class="fas fa-compass text-success me-2"></i> What would you like to explore?</h2>
+    <div class="quick-access-grid">
+      
+      <a href="pages/categories.html" class="quick-card">
+        <div class="quick-icon-box"><i class="fas fa-search"></i></div>
+        <h3>Find a Condition</h3>
+        <p>Search symptoms, dosha balances, and traditional supportive care.</p>
+      </a>
+
+      <a href="disease.html?id=rabies" class="quick-card">
+        <div class="quick-icon-box"><i class="fas fa-shield-alt text-warning"></i></div>
+        <h3>Safety & Red Flags</h3>
+        <p>Recognize urgent warning signs and emergency guidelines.</p>
+      </a>
+
+      <a href="pages/guide.html" class="quick-card">
+        <div class="quick-icon-box"><i class="fas fa-leaf text-success"></i></div>
+        <h3>Ayurveda Guide</h3>
+        <p>Understand Vata, Pitta, Kapha doshas and daily routine habits.</p>
+      </a>
+
+      <a href="pages/profile.html" class="quick-card">
+        <div class="quick-icon-box"><i class="fas fa-user-check text-info"></i></div>
+        <h3>Wellness Profile</h3>
+        <p>Log dietary habits and track your personalized wellness goals.</p>
+      </a>
+
+    </div>
+
+    <!-- SECTION 3 — Explore Common Conditions -->
+    <div style="margin-bottom: 56px;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+        <h2 style="font-size: 1.6rem; font-weight: 700; color: var(--primary-dark);">
+          <i class="fas fa-fire-alt text-warning me-2"></i> Popular Health Topics
+        </h2>
+        <a href="pages/categories.html" style="font-weight: 700; color: var(--primary); text-decoration: none;">View All 34 →</a>
+      </div>
+
+      <div class="condition-pills-grid" style="justify-content: flex-start;">
+        <a href="disease.html?id=fever" class="condition-pill"><i class="fas fa-thermometer-half text-danger"></i> Fever (Jwara)</a>
+        <a href="disease.html?id=cold-and-cough" class="condition-pill"><i class="fas fa-head-side-cough text-info"></i> Cold & Cough (Kasa)</a>
+        <a href="disease.html?id=acidity" class="condition-pill"><i class="fas fa-fire text-warning"></i> Acidity (Amlapitta)</a>
+        <a href="disease.html?id=indigestion" class="condition-pill"><i class="fas fa-stroopwafel text-success"></i> Indigestion (Ajirna)</a>
+        <a href="disease.html?id=headache" class="condition-pill"><i class="fas fa-brain text-primary"></i> Headache (Shirashoola)</a>
+        <a href="disease.html?id=joint-pain" class="condition-pill"><i class="fas fa-bone text-secondary"></i> Joint Pain (Sandhivata)</a>
+        <a href="disease.html?id=diabetes" class="condition-pill"><i class="fas fa-tint text-danger"></i> Diabetes (Prameha)</a>
+        <a href="disease.html?id=asthma" class="condition-pill"><i class="fas fa-lungs text-info"></i> Asthma (Shwasa)</a>
+      </div>
+    </div>
+
+    <!-- SECTION 4 — Health Categories -->
+    <h2 class="section-title"><i class="fas fa-layer-group text-success me-2"></i> Explore by Category</h2>
+    <div class="remedies-grid">
+      
+      <a href="pages/categories.html?cat=respiratory" class="remedy-card">
+        <div class="remedy-card-header">
+          <div class="remedy-icon-box"><i class="fas fa-lungs"></i></div>
+          <div>
+            <h3>Respiratory</h3>
+            <span class="remedy-tag">5 Conditions</span>
+          </div>
+        </div>
+        <p class="text-secondary" style="font-size: 0.9rem;">Cough, Cold, Asthma, Sinusitis, COPD.</p>
+        <div class="remedy-card-footer">
+          <span>Explore Category</span>
+          <i class="fas fa-arrow-right"></i>
+        </div>
+      </a>
+
+      <a href="pages/categories.html?cat=digestive" class="remedy-card">
+        <div class="remedy-card-header">
+          <div class="remedy-icon-box"><i class="fas fa-utensils"></i></div>
+          <div>
+            <h3>Digestive</h3>
+            <span class="remedy-tag">5 Conditions</span>
+          </div>
+        </div>
+        <p class="text-secondary" style="font-size: 0.9rem;">Acidity, Indigestion, Constipation, Piles, Loose Motions.</p>
+        <div class="remedy-card-footer">
+          <span>Explore Category</span>
+          <i class="fas fa-arrow-right"></i>
+        </div>
+      </a>
+
+      <a href="pages/categories.html?cat=musculoskeletal" class="remedy-card">
+        <div class="remedy-card-header">
+          <div class="remedy-icon-box"><i class="fas fa-running"></i></div>
+          <div>
+            <h3>Musculoskeletal</h3>
+            <span class="remedy-tag">4 Conditions</span>
+          </div>
+        </div>
+        <p class="text-secondary" style="font-size: 0.9rem;">Joint Pain, Back Pain, Obesity, Ehlers-Danlos.</p>
+        <div class="remedy-card-footer">
+          <span>Explore Category</span>
+          <i class="fas fa-arrow-right"></i>
+        </div>
+      </a>
+
+      <a href="pages/categories.html?cat=chronic" class="remedy-card">
+        <div class="remedy-card-header">
+          <div class="remedy-icon-box"><i class="fas fa-heartbeat"></i></div>
+          <div>
+            <h3>Chronic & Lifestyle</h3>
+            <span class="remedy-tag">6 Conditions</span>
+          </div>
+        </div>
+        <p class="text-secondary" style="font-size: 0.9rem;">Diabetes, Hypertension, Thyroid, Cancer, Anemia, Hemophilia.</p>
+        <div class="remedy-card-footer">
+          <span>Explore Category</span>
+          <i class="fas fa-arrow-right"></i>
+        </div>
+      </a>
+
+    </div>
+
+    <!-- SECTION 5 — AYURWEB DIFFERENTIATOR ("Understand Before You Try") -->
+    <section class="differentiator-section">
+      <h2 style="font-size: 1.8rem; font-weight: 800; color: var(--primary-dark); margin-bottom: 12px;">
+        <i class="fas fa-shield-alt text-success me-2"></i> Understand Before You Try
+      </h2>
+      <p class="text-secondary" style="max-width: 680px; margin: 0 auto 24px;">
+        AYURWEB helps you understand the distinction between traditional wellness practices, scientific evidence, safety considerations, and clinical medical evaluation.
+      </p>
+
+      <div class="differentiator-flow">
+        <div class="flow-step-card">
+          <div class="flow-step-number">1</div>
+          <h4>Traditional Knowledge</h4>
+          <p>Historical Ayurvedic principles, Pitta/Vata/Kapha concepts, and classic formulations.</p>
+        </div>
+
+        <div class="flow-step-card">
+          <div class="flow-step-number">2</div>
+          <h4>Current Evidence</h4>
+          <p>Scientific literature, evidence levels (limited vs established), and pharmacological data.</p>
+        </div>
+
+        <div class="flow-step-card">
+          <div class="flow-step-number">3</div>
+          <h4>Safety Considerations</h4>
+          <p>Contraindications, herb-drug interaction alerts, and organ safety precautions.</p>
+        </div>
+
+        <div class="flow-step-card">
+          <div class="flow-step-number">4</div>
+          <h4>Reliable Sources</h4>
+          <p>Citations directly linking to WHO, NCCIH (NIH), Ministry of AYUSH, and PubMed.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6 — Footer -->
+    <footer class="footer-custom">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3><i class="fas fa-leaf me-2 text-success"></i> AYURWEB</h3>
+          <p>Modern Ayurveda & Responsible Health Education Platform.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/categories.html">All Conditions</a></li>
+            <li><a href="pages/guide.html">Ayurveda Guide</a></li>
+            <li><a href="pages/profile.html">Wellness Profile</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Sources & Safety</h4>
+          <ul>
+            <li><a href="data/sources.json" target="_blank">Sources Database</a></li>
+            <li><a href="disease.html?id=rabies">Emergency Warning Signs</a></li>
+            <li><a href="pages/contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Educational Note</h4>
+          <p style="font-size: 0.85rem; color: var(--secondary-light);">
+            Content on AYURWEB is for supportive educational reference and does not substitute for medical diagnosis or clinical treatment.
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-disclaimer">
+        <p>© 2026 AYURWEB • Educational Health Portal. All rights reserved.</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Floating AI Assistant Chatbot Toggle & Window -->
+  <div class="chatbot-widget-toggle" onclick="toggleChat()">
+    <i class="fas fa-comment-medical"></i>
+    <span>Ayurvedic Assistant</span>
+  </div>
+
+  <div class="chatbot-window" id="chatbotWindow">
+    <div class="chatbot-header">
+      <div class="chatbot-header-info">
+        <i class="fas fa-user-md"></i>
+        <div>
+          <div class="chatbot-header-title">Ayurvedic Assistant</div>
+          <span class="font-xs" style="opacity: 0.9;">Online • Health Education</span>
+        </div>
+      </div>
+      <button type="button" class="chatbot-close-btn" onclick="toggleChat()">&times;</button>
+    </div>
+
+    <div class="chat-messages-body" id="chatMessagesBody">
+      <div class="chat-bubble chat-bubble-bot">
+        Namaste! Ask me anything about traditional supportive care, symptoms, or emergency guidelines!
+      </div>
+    </div>
+
+    <div class="chat-input-area">
+      <input type="text" id="chatInputField" class="chat-input-field" placeholder="Type your health concern..." onkeypress="if(event.key==='Enter') sendChatMessage()">
+      <button type="button" class="chat-send-btn" onclick="sendChatMessage()">
+        <i class="fas fa-paper-plane"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Modular Scripts -->
+  <script src="js/theme.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/chatbot.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

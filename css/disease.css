@@ -1,0 +1,236 @@
+/* ==========================================================================
+   AYURWEB - Signature Disease Detail Styling (css/disease.css)
+   ========================================================================== */
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--primary);
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+  transition: var(--transition);
+}
+
+.back-link:hover {
+  transform: translateX(-4px);
+  color: var(--primary-dark);
+}
+
+/* Condition Main Card Header */
+.condition-detail-card {
+  background: var(--surface-white);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-xl);
+  padding: 36px;
+  box-shadow: var(--shadow-md);
+  margin-bottom: 32px;
+}
+
+.condition-header {
+  margin-bottom: 24px;
+}
+
+.condition-header h1 {
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  color: var(--primary-dark);
+  margin: 12px 0 8px;
+}
+
+/* At a Glance Metric Cards Grid */
+.at-a-glance-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin: 24px 0 32px;
+}
+
+.glance-card {
+  background: var(--bg-warm);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-md);
+  padding: 16px;
+}
+
+.glance-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 4px;
+}
+
+.glance-value {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--primary-dark);
+}
+
+/* Sticky Section Navigation Pills Bar */
+.section-nav-sticky {
+  position: sticky;
+  top: 80px;
+  z-index: 900;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 10px 16px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-full);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 36px;
+  scrollbar-width: none;
+}
+
+.section-nav-sticky::-webkit-scrollbar {
+  display: none;
+}
+
+.section-nav-btn {
+  padding: 8px 18px;
+  border-radius: var(--radius-full);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: var(--transition);
+}
+
+.section-nav-btn:hover {
+  color: var(--primary-dark);
+  background: var(--primary-subtle);
+}
+
+.section-nav-btn.active {
+  background: var(--primary);
+  color: var(--text-inverse);
+}
+
+.mobile-section-select {
+  display: none;
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .mobile-section-select {
+    display: block;
+  }
+}
+
+/* Disease Content Section Blocks */
+.disease-section-block {
+  margin-bottom: 40px;
+  scroll-margin-top: 140px;
+}
+
+.disease-section-block h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--primary-dark);
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* High Visibility Warning Signs Banner */
+.warning-signs-callout {
+  background: #FFF5F5;
+  border: 2px solid #FCA5A5;
+  border-left: 6px solid #DC2626;
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  margin-bottom: 32px;
+  box-shadow: var(--shadow-sm);
+}
+
+body.dark-mode .warning-signs-callout {
+  background: rgba(220, 38, 38, 0.12);
+  border-color: rgba(220, 38, 38, 0.4);
+}
+
+.warning-signs-callout h3 {
+  color: #DC2626;
+  font-weight: 800;
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.warning-signs-callout ul {
+  padding-left: 20px;
+  color: #991B1B;
+  font-weight: 600;
+}
+
+body.dark-mode .warning-signs-callout ul {
+  color: #FCA5A5;
+}
+
+/* Tailored Emergency Alert Banner */
+.urgent-emergency-banner {
+  background: #FEF2F2;
+  border: 2px solid #EF4444;
+  border-radius: var(--radius-lg);
+  padding: 20px 24px;
+  margin-bottom: 28px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.urgent-emergency-banner i {
+  font-size: 2rem;
+  color: #DC2626;
+}
+
+.urgent-emergency-content h3 {
+  color: #B91C1C;
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+
+.urgent-emergency-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #DC2626;
+  color: white;
+  padding: 8px 18px;
+  border-radius: var(--radius-md);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+/* Signature Evidence Lens Section */
+.evidence-lens-card {
+  background: var(--surface-white);
+  border: 1.5px solid var(--secondary);
+  border-radius: var(--radius-xl);
+  padding: 28px;
+  box-shadow: var(--shadow-md);
+  margin-bottom: 36px;
+}
+
+.evidence-lens-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--card-border);
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,87 @@
+/* ==========================================================================
+   AYURWEB - Responsive Media Queries & Mobile System (css/responsive.css)
+   ========================================================================== */
+
+@media (max-width: 992px) {
+  .nav-links {
+    display: none;
+  }
+
+  .btn-menu-drawer {
+    display: inline-flex;
+  }
+
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-nav-sticky {
+    top: 12px;
+  }
+
+  .differentiator-flow {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .page-wrapper {
+    padding: 12px 14px 60px;
+  }
+
+  .navbar-custom {
+    padding: 10px 16px;
+    margin-bottom: 20px;
+  }
+
+  .hero-section {
+    padding: 24px 12px;
+  }
+
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .search-card {
+    padding: 16px 14px;
+  }
+
+  .search-input-field {
+    font-size: 0.95rem;
+    padding-left: 44px;
+  }
+
+  .search-input-wrapper i.search-icon {
+    left: 14px;
+  }
+
+  .quick-access-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .remedies-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .condition-detail-card {
+    padding: 20px 16px;
+  }
+
+  .at-a-glance-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .chatbot-window {
+    right: 12px;
+    left: 12px;
+    width: auto;
+  }
+
+  .footer-custom {
+    padding: 32px 20px 20px;
+  }
+}

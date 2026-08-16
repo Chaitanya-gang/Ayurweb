@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AYURWEB - Contact Us & Consult Guidelines</title>
+  <meta name="description" content="Get in touch with the AYURWEB educational team or find emergency hospital contact information.">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+  <!-- Slide-Out Sidebar Navigation Drawer (Mobile) -->
+  <div class="sidebar-overlay" id="sidebarOverlay" onclick="closeNav()"></div>
+  <aside class="sidebar-drawer" id="sidebarDrawer" aria-label="Navigation Drawer">
+    <div class="sidebar-header">
+      <h3><i class="fas fa-leaf text-success me-2"></i> AYURWEB</h3>
+      <button type="button" class="close-drawer-btn" onclick="closeNav()">&times;</button>
+    </div>
+    <ul class="sidebar-nav-list">
+      <li><a href="../index.html"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="categories.html"><i class="fas fa-th-large"></i> Conditions</a></li>
+      <li><a href="guide.html"><i class="fas fa-book-medical"></i> Ayurveda Guide</a></li>
+      <li><a href="profile.html"><i class="fas fa-id-card"></i> Wellness Profile</a></li>
+      <li><a href="contact.html" class="active"><i class="fas fa-envelope-open-text"></i> Contact & Consult</a></li>
+    </ul>
+  </aside>
+
+  <!-- Page Wrapper Container -->
+  <div class="page-wrapper">
+
+    <!-- Glassmorphic Sticky Top Navigation Bar -->
+    <nav class="navbar-custom">
+      <a href="../index.html" class="brand-logo">
+        <i class="fas fa-leaf"></i>
+        <span>AYURWEB</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="categories.html">Conditions</a></li>
+        <li><a href="guide.html">Ayurveda Guide</a></li>
+        <li><a href="profile.html">Wellness</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button type="button" class="btn-theme-toggle" onclick="toggleDarkMode()" title="Toggle Dark/Light Mode">
+          <i class="fas fa-moon" id="themeToggleIcon"></i>
+        </button>
+        <button type="button" class="btn-menu-drawer" onclick="openNav()">
+          <i class="fas fa-bars"></i> Menu
+        </button>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="hero-section">
+      <div class="hero-badge">
+        <i class="fas fa-envelope me-1"></i> Inquiries & Community Feedback
+      </div>
+      <h1 class="hero-title">
+        Get in <span>Touch With Us</span>
+      </h1>
+      <p class="hero-subtitle">
+        Have feedback about our supportive health educational content or questions about AYURWEB? Send us a message below.
+      </p>
+    </header>
+
+    <!-- Contact Form & Emergency Information Cards -->
+    <div class="form-grid mb-4" style="max-width: 960px; margin-left: auto; margin-right: auto;">
+      
+      <!-- Inquiry Form Card -->
+      <div class="form-card">
+        <h3 class="text-primary font-bold mb-3">
+          <i class="fas fa-paper-plane text-success me-2"></i> Send an Inquiry
+        </h3>
+        <form onsubmit="event.preventDefault(); alert('✅ Thank you for your inquiry! Our educational team will respond shortly.'); this.reset();">
+          <div class="form-group mb-3">
+            <label class="form-label">Your Name</label>
+            <input type="text" required placeholder="Jane Smith" class="input-clean">
+          </div>
+          <div class="form-group mb-3">
+            <label class="form-label">Email Address</label>
+            <input type="email" required placeholder="jane@example.com" class="input-clean">
+          </div>
+          <div class="form-group mb-4">
+            <label class="form-label">Message / Feedback</label>
+            <textarea rows="4" required placeholder="Type your educational inquiry or platform feedback..." class="input-clean"></textarea>
+          </div>
+          <button type="submit" class="btn-custom btn-primary-custom full-width-button">
+            <i class="fas fa-paper-plane me-1"></i> Submit Message
+          </button>
+        </form>
+      </div>
+
+      <!-- Emergency Contacts & Clinical Notice Card -->
+      <div class="form-card" style="display: flex; flex-direction: column; justify-content: space-between;">
+        <div>
+          <h3 class="text-danger font-bold mb-3">
+            <i class="fas fa-ambulance me-2"></i> Medical Emergency Notice
+          </h3>
+          <p class="text-secondary mb-4 font-sm">
+            AYURWEB is an educational reference platform and does not provide clinical emergency services. If experiencing acute emergency symptoms:
+          </p>
+
+          <div class="source-card" style="border-left: 4px solid #DC2626; margin-bottom: 16px;">
+            <strong class="text-danger font-semibold mb-1" style="display: block;"><i class="fas fa-phone-alt me-2"></i> Universal Emergency Dispatch</strong>
+            <p class="text-secondary font-sm">Call <strong>112</strong> or <strong>102</strong> for immediate medical dispatch.</p>
+          </div>
+
+          <div class="source-card" style="border-left: 4px solid var(--primary);">
+            <strong class="text-primary font-semibold mb-1" style="display: block;"><i class="fas fa-clinic-medical me-2"></i> Urgent Care & Hospital ER</strong>
+            <p class="text-secondary font-sm">Go directly to the nearest hospital ER for severe injuries, snake bites, or Rabies PEP.</p>
+          </div>
+        </div>
+
+        <div style="margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--card-border);">
+          <p class="text-muted font-xs">
+            <i class="fas fa-info-circle me-1"></i> For non-emergency platform support, email: <strong>support@ayurweb.edu</strong>
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-custom">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3><i class="fas fa-leaf me-2 text-success"></i> AYURWEB</h3>
+          <p>Modern Ayurveda & Responsible Health Education Platform.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="categories.html">All Conditions</a></li>
+            <li><a href="guide.html">Ayurveda Guide</a></li>
+            <li><a href="profile.html">Wellness Profile</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Sources & Safety</h4>
+          <ul>
+            <li><a href="../data/sources.json" target="_blank">Sources Database</a></li>
+            <li><a href="../disease.html?id=rabies">Emergency Warning Signs</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Educational Note</h4>
+          <p class="font-xs" style="color: var(--secondary-light);">
+            Content on AYURWEB is for supportive educational reference and does not substitute for medical diagnosis or clinical treatment.
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-disclaimer">
+        <p>© 2026 AYURWEB • Educational Health Portal. All rights reserved.</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Floating AI Assistant Chatbot Toggle & Window -->
+  <div class="chatbot-widget-toggle" onclick="toggleChat()">
+    <i class="fas fa-comment-medical"></i>
+    <span>Ayurvedic Assistant</span>
+  </div>
+
+  <div class="chatbot-window" id="chatbotWindow">
+    <div class="chatbot-header">
+      <div class="chatbot-header-info">
+        <i class="fas fa-user-md"></i>
+        <div>
+          <div class="chatbot-header-title">Ayurvedic Assistant</div>
+          <span class="font-xs" style="opacity: 0.9;">Online • Health Education</span>
+        </div>
+      </div>
+      <button type="button" class="chatbot-close-btn" onclick="toggleChat()">&times;</button>
+    </div>
+
+    <div class="chat-messages-body" id="chatMessagesBody">
+      <div class="chat-bubble chat-bubble-bot">
+        Namaste! Have an inquiry or need emergency contact numbers? Ask me!
+      </div>
+    </div>
+
+    <div class="chat-input-area">
+      <input type="text" id="chatInputField" class="chat-input-field" placeholder="Type your health concern..." onkeypress="if(event.key==='Enter') sendChatMessage()">
+      <button type="button" class="chat-send-btn" onclick="sendChatMessage()">
+        <i class="fas fa-paper-plane"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Modular Scripts -->
+  <script src="../js/theme.js"></script>
+  <script src="../js/navigation.js"></script>
+  <script src="../js/chatbot.js"></script>
+  <script src="../js/app.js"></script>
+</body>
+</html>

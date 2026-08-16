@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AYURWEB - Health Condition Details</title>
+  <meta name="description" content="Explore standardized Ayurvedic supportive principles, symptoms, warning signs, dietary guidelines, and evidence-based safety information.">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Slide-Out Sidebar Navigation Drawer (Mobile) -->
+  <div class="sidebar-overlay" id="sidebarOverlay" onclick="closeNav()"></div>
+  <aside class="sidebar-drawer" id="sidebarDrawer" aria-label="Navigation Drawer">
+    <div class="sidebar-header">
+      <h3><i class="fas fa-leaf text-success me-2"></i> AYURWEB Menu</h3>
+      <button type="button" class="close-drawer-btn" onclick="closeNav()">&times;</button>
+    </div>
+    <ul class="sidebar-nav-list">
+      <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="pages/categories.html"><i class="fas fa-th-large"></i> Conditions</a></li>
+      <li><a href="pages/guide.html"><i class="fas fa-book-medical"></i> Ayurveda Guide</a></li>
+      <li><a href="pages/profile.html"><i class="fas fa-id-card"></i> Wellness Profile</a></li>
+      <li><a href="pages/contact.html"><i class="fas fa-envelope-open-text"></i> Contact & Consult</a></li>
+    </ul>
+  </aside>
+
+  <!-- Page Wrapper Container -->
+  <div class="page-wrapper">
+
+    <!-- Glassmorphic Sticky Top Navigation Bar -->
+    <nav class="navbar-custom">
+      <a href="index.html" class="brand-logo">
+        <i class="fas fa-leaf"></i>
+        <span>AYURWEB</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/categories.html" class="active">Conditions</a></li>
+        <li><a href="pages/guide.html">Ayurveda Guide</a></li>
+        <li><a href="pages/profile.html">Wellness</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button type="button" class="btn-theme-toggle" onclick="toggleDarkMode()" title="Toggle Dark/Light Mode">
+          <i class="fas fa-moon" id="themeToggleIcon"></i>
+        </button>
+        <button type="button" class="btn-menu-drawer" onclick="openNav()">
+          <i class="fas fa-bars"></i> Menu
+        </button>
+      </div>
+    </nav>
+
+    <!-- Back Navigation Link -->
+    <a href="pages/categories.html" class="back-link">
+      <i class="fas fa-arrow-left"></i> Back to Conditions Index
+    </a>
+
+    <!-- Tailored Urgent Medical Emergency Warning Banner -->
+    <div class="urgent-emergency-banner" id="emergencyNoticeBanner" style="display: none;">
+      <i class="fas fa-exclamation-triangle"></i>
+      <div class="urgent-emergency-content">
+        <h3>🔴 URGENT MEDICAL EMERGENCY NOTICE</h3>
+        <p id="emergencyNoticeText">This condition requires immediate emergency hospital evaluation.</p>
+        <a href="tel:112" class="urgent-emergency-btn">
+          <i class="fas fa-phone-alt me-1"></i> <span id="emergencyNoticeAction">Call Emergency Medical Services (112)</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Condition Header Card -->
+    <div class="condition-detail-card">
+      <div class="condition-header">
+        <div class="hero-badge">
+          <i class="fas fa-leaf"></i> Educational Health Topic
+        </div>
+        <h1 id="diseaseNameTitle">Condition Loading...</h1>
+        <p id="diseaseOverviewText" class="hero-subtitle" style="text-align: left; margin: 12px 0 0;">
+          Loading condition details...
+        </p>
+      </div>
+
+      <!-- At a Glance Metric Cards -->
+      <div class="at-a-glance-grid">
+        <div class="glance-card">
+          <div class="glance-label">Category</div>
+          <div class="glance-value" id="glanceCategory">COMMON</div>
+        </div>
+        <div class="glance-card">
+          <div class="glance-label">Dosha Profile</div>
+          <div class="glance-value" id="glanceDosha">Pitta</div>
+        </div>
+        <div class="glance-card">
+          <div class="glance-label">Medical Severity</div>
+          <div class="glance-value"><span id="glanceSeverity" class="severity-chip severity-green">🟢 GENERAL INFORMATION</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sticky Section Navigation Pills Bar -->
+    <nav class="section-nav-sticky" aria-label="Condition Sections Navigation">
+      <button type="button" class="section-nav-btn active" onclick="scrollToSection('secOverview')">Overview</button>
+      <button type="button" class="section-nav-btn" onclick="scrollToSection('secSymptoms')">Symptoms</button>
+      <button type="button" class="section-nav-btn" onclick="scrollToSection('secWarnings')">⚠️ Warning Signs</button>
+      <button type="button" class="section-nav-btn" onclick="scrollToSection('secSelfCare')">Self-Care</button>
+      <button type="button" class="section-nav-btn" onclick="scrollToSection('secAyurveda')">Ayurvedic Approaches</button>
+      <button type="button" class="section-nav-btn" onclick="scrollToSection('secDiet')">Diet & Lifestyle</button>
+      <button type="button" class="section-nav-btn" onclick="scrollToSection('secSafety')">Safety & Evidence</button>
+      <button type="button" class="section-nav-btn" onclick="scrollToSection('secSources')">Sources</button>
+    </nav>
+
+    <!-- Main Section Content Flow -->
+    <main>
+
+      <!-- Section 1: Overview -->
+      <section class="condition-detail-card disease-section-block" id="secOverview">
+        <h2><i class="fas fa-book-open text-success"></i> Overview & Traditional Background</h2>
+        <p class="text-secondary" style="font-size: 1.05rem; line-height: 1.7;">
+          In traditional Ayurvedic health concepts, physical wellness involves maintaining functional balance among bodily tissues and doshas. Explore symptoms, general self-care habits, traditional supportive practices, and evidence-based medical safety guidance below.
+        </p>
+      </section>
+
+      <!-- Section 2: Symptoms -->
+      <section class="condition-detail-card disease-section-block" id="secSymptoms">
+        <h2><i class="fas fa-stethoscope text-primary"></i> Primary Symptoms</h2>
+        <ul id="symptomsList" class="text-secondary" style="padding-left: 20px; font-size: 1rem; line-height: 1.8;"></ul>
+      </section>
+
+      <!-- Section 3: HIGH-VISIBILITY WARNING SIGNS (Never Hidden in Tabs!) -->
+      <section class="warning-signs-callout disease-section-block" id="secWarnings">
+        <h3><i class="fas fa-exclamation-triangle"></i> ⚠️ WHEN TO SEEK IMMEDIATE MEDICAL HELP</h3>
+        <p class="text-secondary mb-3">If any of the following warning red-flag signs occur, seek prompt professional hospital evaluation:</p>
+        <ul id="warningSignsList"></ul>
+      </section>
+
+      <!-- Section 4: Self-Care -->
+      <section class="condition-detail-card disease-section-block" id="secSelfCare">
+        <h2><i class="fas fa-heartbeat text-success"></i> General Self-Care & Supportive Habits</h2>
+        <div class="differentiator-flow" id="selfCareContainer"></div>
+      </section>
+
+      <!-- Section 5: Traditional Ayurvedic Approaches -->
+      <section class="condition-detail-card disease-section-block" id="secAyurveda">
+        <h2><i class="fas fa-mortar-pestle text-success"></i> Traditional Ayurvedic Approaches</h2>
+        <div id="ayurvedicApproachesContainer"></div>
+      </section>
+
+      <!-- Section 6: Diet & Lifestyle -->
+      <section class="condition-detail-card disease-section-block" id="secDiet">
+        <h2><i class="fas fa-utensils text-warning"></i> Dietary & Lifestyle Principles</h2>
+        <div class="form-grid">
+          <div>
+            <h3 style="font-size: 1.15rem; color: var(--primary-dark); margin-bottom: 10px;"><i class="fas fa-apple-alt me-1 text-success"></i> Dietary Guidelines (Ahara)</h3>
+            <ul id="dietList" class="text-secondary" style="padding-left: 18px;"></ul>
+          </div>
+          <div>
+            <h3 style="font-size: 1.15rem; color: var(--primary-dark); margin-bottom: 10px;"><i class="fas fa-spa me-1 text-info"></i> Lifestyle & Yoga (Vihara)</h3>
+            <ul id="yogaList" class="text-secondary" style="padding-left: 18px;"></ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 7: Signature Evidence Lens & Safety Breakdown -->
+      <section class="evidence-lens-card disease-section-block" id="secSafety">
+        <div class="evidence-lens-header">
+          <h2 style="margin: 0;"><i class="fas fa-shield-alt text-success me-2"></i> Evidence Lens & Safety Breakdown</h2>
+          <span class="hero-badge" style="margin: 0;"><i class="fas fa-balance-scale me-1"></i> Responsible Guidance</span>
+        </div>
+        
+        <div style="margin-bottom: 16px;">
+          <h3 style="font-size: 1.1rem; color: var(--primary-dark); margin-bottom: 6px;"><i class="fas fa-user-md text-primary me-1"></i> Medical Evaluation Guidance</h3>
+          <p id="whenToSeekHelpText" class="text-secondary"></p>
+        </div>
+
+        <div id="safetyStructuredContainer"></div>
+      </section>
+
+      <!-- Section 8: Reliable Sources & References -->
+      <section class="condition-detail-card disease-section-block" id="secSources">
+        <h2><i class="fas fa-bookmark text-success"></i> Organizational & Research Citations</h2>
+        <div id="sourcesCitationsList"></div>
+      </section>
+
+      <!-- Community Discussions Box -->
+      <section class="condition-detail-card">
+        <h3><i class="fas fa-comments text-success me-2"></i> Community Discussions & Educational Notes</h3>
+        <form onsubmit="event.preventDefault(); addComment();">
+          <textarea id="commentText" rows="3" required placeholder="Share your experience or traditional wellness notes..." class="search-input-field mb-3" style="padding-left: 16px;"></textarea>
+          <button type="submit" class="btn-custom btn-primary-custom">
+            <i class="fas fa-paper-plane me-1"></i> Post Educational Note
+          </button>
+        </form>
+        <div id="commentList" style="margin-top: 20px; display: flex; flex-direction: column; gap: 10px;">
+          <div class="source-card">
+            <strong>Ayurvedic Practitioner Note</strong> <span class="text-muted" style="font-size: 0.8rem;">- Community Guide</span>
+            <p class="text-secondary" style="font-size: 0.9rem; margin-top: 4px;">Always ensure herbs are taken in recommended dosages and consult a physician for acute or severe symptoms.</p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-custom">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3><i class="fas fa-leaf me-2 text-success"></i> AYURWEB</h3>
+          <p>Modern Ayurveda & Responsible Health Education Platform.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/categories.html">All Conditions</a></li>
+            <li><a href="pages/guide.html">Ayurveda Guide</a></li>
+            <li><a href="pages/profile.html">Wellness Profile</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Sources & Safety</h4>
+          <ul>
+            <li><a href="data/sources.json" target="_blank">Sources Database</a></li>
+            <li><a href="disease.html?id=rabies">Emergency Warning Signs</a></li>
+            <li><a href="pages/contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Educational Note</h4>
+          <p style="font-size: 0.85rem; color: var(--secondary-light);">
+            Content on AYURWEB is for supportive educational reference and does not substitute for medical diagnosis or clinical treatment.
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-disclaimer">
+        <p>© 2026 AYURWEB • Educational Health Portal. All rights reserved.</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Floating AI Assistant Chatbot Toggle & Window -->
+  <div class="chatbot-widget-toggle" onclick="toggleChat()">
+    <i class="fas fa-comment-medical"></i>
+    <span>Ayurvedic Assistant</span>
+  </div>
+
+  <div class="chatbot-window" id="chatbotWindow">
+    <div class="chatbot-header">
+      <div class="chatbot-header-info">
+        <i class="fas fa-user-md"></i>
+        <div>
+          <div class="chatbot-header-title">Ayurvedic Assistant</div>
+          <span class="font-xs" style="opacity: 0.9;">Online • Health Education</span>
+        </div>
+      </div>
+      <button type="button" class="chatbot-close-btn" onclick="toggleChat()">&times;</button>
+    </div>
+
+    <div class="chat-messages-body" id="chatMessagesBody">
+      <div class="chat-bubble chat-bubble-bot">
+        Namaste! Ask me anything about traditional supportive care, symptoms, or emergency guidelines!
+      </div>
+    </div>
+
+    <div class="chat-input-area">
+      <input type="text" id="chatInputField" class="chat-input-field" placeholder="Type your health concern..." onkeypress="if(event.key==='Enter') sendChatMessage()">
+      <button type="button" class="chat-send-btn" onclick="sendChatMessage()">
+        <i class="fas fa-paper-plane"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Modular Scripts -->
+  <script src="js/theme.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/chatbot.js"></script>
+  <script src="js/disease.js"></script>
+  <script src="js/app.js"></script>
+
+  <script>
+    function addComment() {
+      const input = document.getElementById('commentText');
+      const list = document.getElementById('commentList');
+      if (!input || !list || !input.value.trim()) return;
+
+      const div = document.createElement('div');
+      div.className = 'source-card';
+
+      const author = document.createElement('strong');
+      author.textContent = 'You';
+
+      const timeSpan = document.createElement('span');
+      timeSpan.className = 'text-muted';
+      timeSpan.style.fontSize = '0.8rem';
+      timeSpan.textContent = ' - Just now';
+
+      const p = document.createElement('p');
+      p.className = 'text-secondary';
+      p.style.fontSize = '0.9rem';
+      p.style.marginTop = '4px';
+      p.textContent = input.value.trim();
+
+      div.appendChild(author);
+      div.appendChild(timeSpan);
+      div.appendChild(p);
+
+      list.prepend(div);
+      input.value = '';
+    }
+  </script>
+</body>
+</html>

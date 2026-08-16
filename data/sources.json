@@ -1,0 +1,30 @@
+[
+  {
+    "id": "WHO-TM-001",
+    "title": "WHO Traditional Medicine Strategy & Global Guidelines",
+    "organization": "World Health Organization (WHO)",
+    "url": "https://www.who.int/initiatives/traditional-complementary-and-integrative-medicine",
+    "type": "Global Health Organization"
+  },
+  {
+    "id": "NCCIH-001",
+    "title": "Ayurvedic Medicine: In-Depth Clinical & Safety Overview",
+    "organization": "National Center for Complementary and Integrative Health (NCCIH / NIH)",
+    "url": "https://www.nccih.nih.gov/health/ayurvedic-medicine-in-depth",
+    "type": "Government Research Institute"
+  },
+  {
+    "id": "AYUSH-001",
+    "title": "Ayurvedic Pharmacopoeia of India (API) & Formulary",
+    "organization": "Ministry of AYUSH, Government of India",
+    "url": "https://ayush.gov.in",
+    "type": "Official Pharmacopoeia"
+  },
+  {
+    "id": "RESEARCH-001",
+    "title": "Peer-Reviewed Systematic Reviews & Clinical Phytotherapy Research",
+    "organization": "PubMed Central / Hindawi Evidence-Based Medicine",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/",
+    "type": "Peer-Reviewed Literature"
+  }
+]

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AYURWEB - Conditions Index & Health Categories</title>
+  <meta name="description" content="Browse all 34 Ayurvedic health conditions filtered by category, symptoms, or severity.">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+  <!-- Slide-Out Sidebar Navigation Drawer (Mobile) -->
+  <div class="sidebar-overlay" id="sidebarOverlay" onclick="closeNav()"></div>
+  <aside class="sidebar-drawer" id="sidebarDrawer" aria-label="Navigation Drawer">
+    <div class="sidebar-header">
+      <h3><i class="fas fa-leaf text-success me-2"></i> AYURWEB</h3>
+      <button type="button" class="close-drawer-btn" onclick="closeNav()">&times;</button>
+    </div>
+    <ul class="sidebar-nav-list">
+      <li><a href="../index.html"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="categories.html" class="active"><i class="fas fa-th-large"></i> Conditions Index</a></li>
+      <li><a href="guide.html"><i class="fas fa-book-medical"></i> Ayurveda Guide</a></li>
+      <li><a href="profile.html"><i class="fas fa-id-card"></i> Wellness Profile</a></li>
+      <li><a href="contact.html"><i class="fas fa-envelope-open-text"></i> Contact & Consult</a></li>
+    </ul>
+  </aside>
+
+  <!-- Page Wrapper Container -->
+  <div class="page-wrapper">
+
+    <!-- Glassmorphic Sticky Top Navigation Bar -->
+    <nav class="navbar-custom">
+      <a href="../index.html" class="brand-logo">
+        <i class="fas fa-leaf"></i>
+        <span>AYURWEB</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="categories.html" class="active">Conditions</a></li>
+        <li><a href="guide.html">Ayurveda Guide</a></li>
+        <li><a href="profile.html">Wellness</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button type="button" class="btn-theme-toggle" onclick="toggleDarkMode()" title="Toggle Dark/Light Mode">
+          <i class="fas fa-moon" id="themeToggleIcon"></i>
+        </button>
+        <button type="button" class="btn-menu-drawer" onclick="openNav()">
+          <i class="fas fa-bars"></i> Menu
+        </button>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="hero-section">
+      <div class="hero-badge">
+        <i class="fas fa-th-large"></i> Health Topics Directory
+      </div>
+      <h1 class="hero-title">
+        Explore <span>All 34 Health Conditions</span>
+      </h1>
+      <p class="hero-subtitle">
+        Filter by category, search by symptoms or traditional terms, and review structured supportive care guidelines.
+      </p>
+
+      <!-- Live Search Box -->
+      <div class="search-card">
+        <div class="search-input-wrapper">
+          <i class="fas fa-search search-icon"></i>
+          <input type="text" id="categorySearchInput" class="search-input-field" placeholder="Search by condition name, symptom, or dosha..." oninput="filterCategoryCards()">
+        </div>
+      </div>
+    </header>
+
+    <!-- Category Filter Pills -->
+    <div class="condition-pills-grid" id="categoryFilterPills" style="margin-bottom: 36px;">
+      <button type="button" class="condition-pill active" onclick="filterCategory('all')">All (34)</button>
+      <button type="button" class="condition-pill" onclick="filterCategory('common')">Common</button>
+      <button type="button" class="condition-pill" onclick="filterCategory('respiratory')">Respiratory</button>
+      <button type="button" class="condition-pill" onclick="filterCategory('digestive')">Digestive</button>
+      <button type="button" class="condition-pill" onclick="filterCategory('musculoskeletal')">Musculoskeletal</button>
+      <button type="button" class="condition-pill" onclick="filterCategory('skin')">Skin</button>
+      <button type="button" class="condition-pill" onclick="filterCategory('chronic')">Chronic & Lifestyle</button>
+    </div>
+
+    <!-- Disease Cards Container -->
+    <div class="remedies-grid" id="categoryCardsGrid">
+      <div class="text-center" style="grid-column: 1/-1; padding: 40px;">
+        <i class="fas fa-spinner fa-spin text-success" style="font-size: 2rem;"></i>
+        <p class="mt-2 text-secondary">Loading condition database...</p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-custom">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3><i class="fas fa-leaf me-2 text-success"></i> AYURWEB</h3>
+          <p>Modern Ayurveda & Responsible Health Education Platform.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="categories.html">All Conditions</a></li>
+            <li><a href="guide.html">Ayurveda Guide</a></li>
+            <li><a href="profile.html">Wellness Profile</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Sources & Safety</h4>
+          <ul>
+            <li><a href="../data/sources.json" target="_blank">Sources Database</a></li>
+            <li><a href="../disease.html?id=rabies">Emergency Warning Signs</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Educational Note</h4>
+          <p style="font-size: 0.85rem; color: var(--secondary-light);">
+            Content on AYURWEB is for supportive educational reference and does not substitute for medical diagnosis or clinical treatment.
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-disclaimer">
+        <p>© 2026 AYURWEB • Educational Health Portal. All rights reserved.</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Floating AI Assistant Chatbot Toggle & Window -->
+  <div class="chatbot-widget-toggle" onclick="toggleChat()">
+    <i class="fas fa-comment-medical"></i>
+    <span>Ayurvedic Assistant</span>
+  </div>
+
+  <div class="chatbot-window" id="chatbotWindow">
+    <div class="chatbot-header">
+      <div class="chatbot-header-info">
+        <i class="fas fa-user-md"></i>
+        <div>
+          <div class="chatbot-header-title">Ayurvedic Assistant</div>
+          <span class="font-xs" style="opacity: 0.9;">Online • Health Education</span>
+        </div>
+      </div>
+      <button type="button" class="chatbot-close-btn" onclick="toggleChat()">&times;</button>
+    </div>
+
+    <div class="chat-messages-body" id="chatMessagesBody">
+      <div class="chat-bubble chat-bubble-bot">
+        Namaste! Need help finding a specific condition? Ask me!
+      </div>
+    </div>
+
+    <div class="chat-input-area">
+      <input type="text" id="chatInputField" class="chat-input-field" placeholder="Type your health concern..." onkeypress="if(event.key==='Enter') sendChatMessage()">
+      <button type="button" class="chat-send-btn" onclick="sendChatMessage()">
+        <i class="fas fa-paper-plane"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Modular Scripts -->
+  <script src="../js/theme.js"></script>
+  <script src="../js/navigation.js"></script>
+  <script src="../js/chatbot.js"></script>
+  <script src="../js/app.js"></script>
+
+  <script>
+    let allDiseases = [];
+    let currentCategory = 'all';
+
+    async function loadCategoryPageData() {
+      try {
+        const resp = await fetch("../data/diseases.json");
+        allDiseases = await resp.json();
+        
+        const urlParams = new URLSearchParams(window.location.search);
+        const catParam = urlParams.get('cat');
+        if (catParam) {
+          filterCategory(catParam);
+        } else {
+          renderCategoryCards(allDiseases);
+        }
+      } catch (err) {
+        console.error("Error loading diseases for category page:", err);
+      }
+    }
+
+    function renderCategoryCards(list) {
+      const grid = document.getElementById("categoryCardsGrid");
+      if (!grid) return;
+
+      if (list.length === 0) {
+        grid.innerHTML = `
+          <div class="text-center" style="grid-column: 1/-1; padding: 40px;">
+            <p class="text-secondary" style="font-size: 1.1rem;">No conditions match your search filter.</p>
+          </div>
+        `;
+        return;
+      }
+
+      grid.innerHTML = list.map(item => `
+        <a href="../disease.html?id=${item.id}" class="remedy-card">
+          <div>
+            <div class="remedy-card-header">
+              <div class="remedy-icon-box"><i class="fas ${item.icon || 'fa-leaf'}"></i></div>
+              <div>
+                <h3>${item.name}</h3>
+                <span class="text-muted font-sm">${item.traditionalName}</span>
+              </div>
+            </div>
+            <div class="mb-3">
+              <span class="severity-chip severity-${item.severity}">${item.severityText}</span>
+            </div>
+            <p class="text-secondary mb-3" style="font-size: 0.88rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+              ${item.overview}
+            </p>
+          </div>
+          <div class="remedy-card-footer">
+            <span>Explore Topic</span>
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </a>
+      `).join("");
+    }
+
+    function filterCategory(cat) {
+      currentCategory = cat;
+      const pills = document.querySelectorAll("#categoryFilterPills button");
+      pills.forEach(btn => btn.classList.remove("active"));
+      
+      const targetPill = Array.from(pills).find(b => b.getAttribute("onclick").includes(`'${cat}'`));
+      if (targetPill) targetPill.classList.add("active");
+
+      let filtered = allDiseases;
+      if (cat !== 'all') {
+        filtered = allDiseases.filter(d => d.category.toLowerCase() === cat.toLowerCase());
+      }
+      
+      const searchVal = document.getElementById("categorySearchInput") ? document.getElementById("categorySearchInput").value.trim().toLowerCase() : "";
+      if (searchVal) {
+        filtered = filtered.filter(item => 
+          item.name.toLowerCase().includes(searchVal) || 
+          item.traditionalName.toLowerCase().includes(searchVal) ||
+          item.symptoms.some(s => s.toLowerCase().includes(searchVal))
+        );
+      }
+
+      renderCategoryCards(filtered);
+    }
+
+    function filterCategoryCards() {
+      filterCategory(currentCategory);
+    }
+
+    document.addEventListener("DOMContentLoaded", loadCategoryPageData);
+  </script>
+</body>
+</html>

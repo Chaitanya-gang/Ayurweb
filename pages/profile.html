@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AYURWEB - Guided Wellness Profile & Personalization</title>
+  <meta name="description" content="Complete your multi-step wellness profile to track personal health goals, dietary preferences, and digestion quality.">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="../styles.css">
+
+  <!-- Firebase SDKs (App, Auth, Firestore) -->
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore-compat.js"></script>
+</head>
+<body>
+
+  <!-- Slide-Out Sidebar Navigation Drawer (Mobile) -->
+  <div class="sidebar-overlay" id="sidebarOverlay" onclick="closeNav()"></div>
+  <aside class="sidebar-drawer" id="sidebarDrawer" aria-label="Navigation Drawer">
+    <div class="sidebar-header">
+      <h3><i class="fas fa-leaf text-success me-2"></i> AYURWEB</h3>
+      <button type="button" class="close-drawer-btn" onclick="closeNav()">&times;</button>
+    </div>
+    <ul class="sidebar-nav-list">
+      <li><a href="../index.html"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="categories.html"><i class="fas fa-th-large"></i> Conditions</a></li>
+      <li><a href="guide.html"><i class="fas fa-book-medical"></i> Ayurveda Guide</a></li>
+      <li><a href="profile.html" class="active"><i class="fas fa-id-card"></i> Wellness Profile</a></li>
+      <li><a href="contact.html"><i class="fas fa-envelope-open-text"></i> Contact & Consult</a></li>
+    </ul>
+  </aside>
+
+  <!-- Page Wrapper Container -->
+  <div class="page-wrapper">
+
+    <!-- Glassmorphic Sticky Top Navigation Bar -->
+    <nav class="navbar-custom">
+      <a href="../index.html" class="brand-logo">
+        <i class="fas fa-leaf"></i>
+        <span>AYURWEB</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="categories.html">Conditions</a></li>
+        <li><a href="guide.html">Ayurveda Guide</a></li>
+        <li><a href="profile.html" class="active">Wellness</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button type="button" class="btn-theme-toggle" onclick="toggleDarkMode()" title="Toggle Dark/Light Mode">
+          <i class="fas fa-moon" id="themeToggleIcon"></i>
+        </button>
+        <button type="button" class="btn-menu-drawer" onclick="openNav()">
+          <i class="fas fa-bars"></i> Menu
+        </button>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="hero-section">
+      <div class="hero-badge">
+        <i class="fas fa-user-check me-1"></i> Personal Health Tracking & Guidance
+      </div>
+      <h1 class="hero-title">
+        Your Personal <span>Wellness Profile</span>
+      </h1>
+      <p class="hero-subtitle">
+        Let's create your wellness profile to help AYURWEB organize educational content around your personal goals, dietary preferences, and digestion quality (Agni).
+      </p>
+    </header>
+
+    <!-- Interactive Multi-Step Form Card Container -->
+    <div class="form-card" style="max-width: 760px; margin: 0 auto 48px;">
+      
+      <!-- Visual Guided Stepper Nodes -->
+      <div class="stepper-header">
+        <div class="stepper-line"><div id="stepperLineFill" class="stepper-line-fill" style="width: 0%;"></div></div>
+        
+        <div class="step-node active" id="stepNode1">
+          <div class="step-circle">1</div>
+          <span class="step-text">Details</span>
+        </div>
+
+        <div class="step-node" id="stepNode2">
+          <div class="step-circle">2</div>
+          <span class="step-text">Goals</span>
+        </div>
+
+        <div class="step-node" id="stepNode3">
+          <div class="step-circle">3</div>
+          <span class="step-text">Lifestyle</span>
+        </div>
+
+        <div class="step-node" id="stepNode4">
+          <div class="step-circle">4</div>
+          <span class="step-text">Concerns</span>
+        </div>
+      </div>
+
+      <!-- Animated Progress Tracker -->
+      <div class="progress-wrap">
+        <div class="progress-info-row">
+          <strong id="stepTitleText" class="text-primary font-bold">Step 1 of 4: Personal Details</strong>
+          <span id="stepProgressText" class="text-muted font-sm">25% Complete</span>
+        </div>
+        <div class="progress-track">
+          <div id="stepProgressBar" class="progress-fill" style="width: 25%;"></div>
+        </div>
+      </div>
+
+      <form id="userInfoForm">
+
+        <!-- Step 1: Personal Details -->
+        <div class="form-step-pane active" id="formStep1">
+          <h3 class="mb-3"><i class="fas fa-id-card text-success me-2"></i> 1. Personal Details</h3>
+          <div class="form-grid">
+            <div class="form-group">
+              <label class="form-label">Full Name</label>
+              <input type="text" id="patientName" required placeholder="John Doe" class="input-clean">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Age (Years)</label>
+              <input type="number" id="patientAge" required placeholder="32" min="1" max="120" class="input-clean">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Gender</label>
+              <select id="patientGender" class="input-clean">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other / Prefer not to say</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Contact Phone</label>
+              <input type="tel" id="patientPhone" required placeholder="+91 9876543210" class="input-clean">
+            </div>
+          </div>
+          <div style="display: flex; justify-content: flex-end; margin-top: 24px;">
+            <button type="button" class="btn-custom btn-primary-custom" onclick="nextFormStep(2)">
+              Next: Wellness Goals <i class="fas fa-arrow-right ms-1"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Step 2: Wellness Goals -->
+        <div class="form-step-pane" id="formStep2" style="display: none;">
+          <h3 class="mb-3"><i class="fas fa-bullseye text-warning me-2"></i> 2. What are your primary goals?</h3>
+          <div class="goal-cards-grid">
+            <label class="goal-card-option selected">
+              <input type="checkbox" name="goalCheck" value="digestion" checked style="margin-bottom: 6px;">
+              <strong>Better Digestion</strong>
+              <span class="text-secondary font-xs">Support Agni and reduce bloating</span>
+            </label>
+            <label class="goal-card-option selected">
+              <input type="checkbox" name="goalCheck" value="sleep" checked style="margin-bottom: 6px;">
+              <strong>Restful Sleep</strong>
+              <span class="text-secondary font-xs">Promote natural sleep cycles</span>
+            </label>
+            <label class="goal-card-option">
+              <input type="checkbox" name="goalCheck" value="stress" style="margin-bottom: 6px;">
+              <strong>Stress Relief</strong>
+              <span class="text-secondary font-xs">Calm mind and balance anxiety</span>
+            </label>
+            <label class="goal-card-option">
+              <input type="checkbox" name="goalCheck" value="fitness" style="margin-bottom: 6px;">
+              <strong>Daily Vitality</strong>
+              <span class="text-secondary font-xs">Maintain energy and joint mobility</span>
+            </label>
+          </div>
+          <div style="display: flex; justify-content: space-between; margin-top: 24px;">
+            <button type="button" class="btn-custom btn-secondary-custom" onclick="nextFormStep(1)">Back</button>
+            <button type="button" class="btn-custom btn-primary-custom" onclick="nextFormStep(3)">
+              Next: Lifestyle & Digestion <i class="fas fa-arrow-right ms-1"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Step 3: Digestion & Lifestyle -->
+        <div class="form-step-pane" id="formStep3" style="display: none;">
+          <h3 class="mb-3"><i class="fas fa-utensils text-success me-2"></i> 3. Digestion & Lifestyle Habits</h3>
+          <div class="form-grid mb-4">
+            <div class="form-group">
+              <label class="form-label">Dietary Preference</label>
+              <select id="dietType" class="input-clean">
+                <option>Vegetarian</option>
+                <option>Vegan</option>
+                <option>Non-Vegetarian</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Digestion Quality (Agni)</label>
+              <select id="agniQuality" class="input-clean">
+                <option>Regular & Healthy Digestion</option>
+                <option>Frequent Acidity / Heartburn (Tikshnagni)</option>
+                <option>Bloating & Irregular Hunger (Vishamagni)</option>
+                <option>Sluggish / Heavy Digestion (Mandagni)</option>
+              </select>
+            </div>
+          </div>
+          <div style="display: flex; justify-content: space-between; margin-top: 24px;">
+            <button type="button" class="btn-custom btn-secondary-custom" onclick="nextFormStep(2)">Back</button>
+            <button type="button" class="btn-custom btn-primary-custom" onclick="nextFormStep(4)">
+              Next: Health Concerns <i class="fas fa-arrow-right ms-1"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Step 4: Health Concerns & Save -->
+        <div class="form-step-pane" id="formStep4" style="display: none;">
+          <h3 class="mb-3"><i class="fas fa-notes-medical text-primary me-2"></i> 4. Primary Health Concerns</h3>
+          <div class="form-group mb-3">
+            <label class="form-label">Primary Health Topic</label>
+            <select id="primaryAilment" class="input-clean">
+              <option>Cold & Cough / Respiratory</option>
+              <option>Acidity & Indigestion</option>
+              <option>Fever & Body Heat</option>
+              <option>Joint & Knee Pain</option>
+              <option>Back & Muscular Pain</option>
+              <option>Diabetes / High Blood Sugar</option>
+              <option>Hypertension / High BP</option>
+              <option>Stress, Anxiety & Insomnia</option>
+              <option>Other Topic</option>
+            </select>
+          </div>
+          <div class="form-group mb-4">
+            <label class="form-label">Symptom Description & Notes</label>
+            <textarea id="symptomDetails" rows="4" required placeholder="Describe any symptoms or specific goals..." class="input-clean"></textarea>
+          </div>
+          <div style="display: flex; justify-content: space-between; margin-top: 24px;">
+            <button type="button" class="btn-custom btn-secondary-custom" onclick="nextFormStep(3)">Back</button>
+            <button type="submit" class="btn-custom btn-primary-custom">
+              <i class="fas fa-check-circle me-1"></i> Save Wellness Profile
+            </button>
+          </div>
+        </div>
+
+      </form>
+
+      <!-- Summary Card View (Visible after Profile Saved) -->
+      <div id="profileSummaryView" style="display: none; margin-top: 20px;">
+        <div class="profile-summary-box">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
+            <h3 class="text-primary font-bold"><i class="fas fa-user-check me-2 text-success"></i> Wellness Profile Active</h3>
+            <span class="remedy-tag" id="savedDateTag">Session Active</span>
+          </div>
+          <p id="savedSummaryName" class="font-bold text-primary mb-2"></p>
+          <p id="savedSummaryDetails" class="text-secondary mb-4"></p>
+          <button type="button" class="btn-custom btn-outline-custom" onclick="resetStepForm()">
+            <i class="fas fa-edit me-1"></i> Update Profile Settings
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-custom">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3><i class="fas fa-leaf me-2 text-success"></i> AYURWEB</h3>
+          <p>Modern Ayurveda & Responsible Health Education Platform.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="categories.html">All Conditions</a></li>
+            <li><a href="guide.html">Ayurveda Guide</a></li>
+            <li><a href="profile.html">Wellness Profile</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Sources & Safety</h4>
+          <ul>
+            <li><a href="../data/sources.json" target="_blank">Sources Database</a></li>
+            <li><a href="../disease.html?id=rabies">Emergency Warning Signs</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Educational Note</h4>
+          <p class="font-xs" style="color: var(--secondary-light);">
+            Content on AYURWEB is for supportive educational reference and does not substitute for medical diagnosis or clinical treatment.
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-disclaimer">
+        <p>© 2026 AYURWEB • Educational Health Portal. All rights reserved.</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Floating AI Assistant Chatbot Toggle & Window -->
+  <div class="chatbot-widget-toggle" onclick="toggleChat()">
+    <i class="fas fa-comment-medical"></i>
+    <span>Ayurvedic Assistant</span>
+  </div>
+
+  <div class="chatbot-window" id="chatbotWindow">
+    <div class="chatbot-header">
+      <div class="chatbot-header-info">
+        <i class="fas fa-user-md"></i>
+        <div>
+          <div class="chatbot-header-title">Ayurvedic Assistant</div>
+          <span class="font-xs" style="opacity: 0.9;">Online • Health Education</span>
+        </div>
+      </div>
+      <button type="button" class="chatbot-close-btn" onclick="toggleChat()">&times;</button>
+    </div>
+
+    <div class="chat-messages-body" id="chatMessagesBody">
+      <div class="chat-bubble chat-bubble-bot">
+        Namaste! Need assistance completing your wellness profile? Ask me!
+      </div>
+    </div>
+
+    <div class="chat-input-area">
+      <input type="text" id="chatInputField" class="chat-input-field" placeholder="Type your health concern..." onkeypress="if(event.key==='Enter') sendChatMessage()">
+      <button type="button" class="chat-send-btn" onclick="sendChatMessage()">
+        <i class="fas fa-paper-plane"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Modular Scripts -->
+  <script src="../js/theme.js"></script>
+  <script src="../js/navigation.js"></script>
+  <script src="../js/chatbot.js"></script>
+  <script src="../js/firebase.js"></script>
+  <script src="../js/profile.js"></script>
+  <script src="../js/app.js"></script>
+
+  <script>
+    function nextFormStep(step) {
+      document.querySelectorAll(".form-step-pane").forEach(pane => pane.style.display = "none");
+      const target = document.getElementById(`formStep${step}`);
+      if (target) target.style.display = "block";
+
+      const titleEl = document.getElementById("stepTitleText");
+      const progressEl = document.getElementById("stepProgressText");
+      const barEl = document.getElementById("stepProgressBar");
+      const lineFill = document.getElementById("stepperLineFill");
+
+      const pct = step * 25;
+      if (progressEl) progressEl.innerText = `${pct}% Complete`;
+      if (barEl) barEl.style.width = `${pct}%`;
+      if (lineFill) lineFill.style.width = `${(step - 1) * 33.3}%`;
+
+      // Update Stepper Node Visual States
+      for (let i = 1; i <= 4; i++) {
+        const node = document.getElementById(`stepNode${i}`);
+        if (!node) continue;
+        node.classList.remove("active", "completed");
+        if (i === step) {
+          node.classList.add("active");
+        } else if (i < step) {
+          node.classList.add("completed");
+        }
+      }
+
+      const titles = [
+        "Step 1 of 4: Personal Details",
+        "Step 2 of 4: Wellness Goals",
+        "Step 3 of 4: Lifestyle & Digestion",
+        "Step 4 of 4: Primary Health Concerns"
+      ];
+      if (titleEl) titleEl.innerText = titles[step - 1];
+    }
+
+    function resetStepForm() {
+      const summaryView = document.getElementById("profileSummaryView");
+      const form = document.getElementById("userInfoForm");
+      if (summaryView) summaryView.style.display = "none";
+      if (form) form.style.display = "block";
+      nextFormStep(1);
+    }
+  </script>
+</body>
+</html>

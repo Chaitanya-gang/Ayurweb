@@ -1,0 +1,89 @@
+/* ==========================================================================
+   AYURWEB - Design Tokens & Visual System (css/variables.css)
+   ========================================================================== */
+
+:root {
+  /* --- Brand Color System --- */
+  --primary: #174A3A;             /* Deep Forest */
+  --primary-dark: #0F3328;        /* Dark Forest */
+  --primary-light: #246953;       /* Muted Forest */
+  --primary-subtle: rgba(23, 74, 58, 0.08);
+
+  --secondary: #6F9B7A;           /* Sage Green */
+  --secondary-light: #EBF2EC;
+
+  --bg-warm: #F8F7F2;             /* Warm Ivory */
+  --bg-gradient: linear-gradient(180deg, #F8F7F2 0%, #F1EFE8 100%);
+  --surface-white: #FFFFFF;
+
+  --accent-gold: #C49A45;         /* Herbal Gold */
+  --accent-gold-light: rgba(196, 154, 69, 0.12);
+
+  /* --- Text Color Hierarchy --- */
+  --text-primary: #1F2933;
+  --text-secondary: #667085;
+  --text-muted: #98A2B3;
+  --text-inverse: #FFFFFF;
+
+  /* --- Health Safety Color Tiers --- */
+  --severity-green-bg: rgba(16, 185, 129, 0.1);
+  --severity-green-text: #047857;
+  --severity-green-border: rgba(16, 185, 129, 0.25);
+
+  --severity-yellow-bg: rgba(245, 158, 11, 0.12);
+  --severity-yellow-text: #b45309;
+  --severity-yellow-border: rgba(245, 158, 11, 0.3);
+
+  --severity-orange-bg: rgba(249, 115, 22, 0.12);
+  --severity-orange-text: #c2410c;
+  --severity-orange-border: rgba(249, 115, 22, 0.3);
+
+  --severity-red-bg: rgba(239, 68, 68, 0.12);
+  --severity-red-text: #b91c1c;
+  --severity-red-border: rgba(239, 68, 68, 0.35);
+
+  /* --- Component & Card Surfaces --- */
+  --card-bg: #FFFFFF;
+  --card-bg-hover: #FFFFFF;
+  --card-border: rgba(23, 74, 58, 0.08);
+  --glass-bg: rgba(255, 255, 255, 0.85);
+
+  /* --- Border Radius Scale --- */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* --- Elevation & Shadows --- */
+  --shadow-sm: 0 2px 8px rgba(23, 74, 58, 0.04);
+  --shadow-md: 0 4px 20px rgba(23, 74, 58, 0.08);
+  --shadow-lg: 0 12px 36px rgba(23, 74, 58, 0.12);
+
+  --transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* --- Dark Mode Palette Adjustments --- */
+body.dark-mode {
+  --primary: #2D7A63;
+  --primary-dark: #1E5444;
+  --primary-light: #3D9B80;
+  --primary-subtle: rgba(45, 122, 99, 0.2);
+
+  --bg-warm: #121A16;
+  --bg-gradient: linear-gradient(180deg, #121A16 0%, #0B120E 100%);
+  --surface-white: #1A2420;
+
+  --text-primary: #F0F4F2;
+  --text-secondary: #9EB0A6;
+  --text-muted: #6B7D73;
+
+  --card-bg: #1A2420;
+  --card-bg-hover: #222E29;
+  --card-border: rgba(255, 255, 255, 0.08);
+  --glass-bg: rgba(26, 36, 32, 0.9);
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 12px 36px rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,3447 @@
+[
+  {
+    "id": "cold-and-cough",
+    "name": "Cold and Cough",
+    "traditionalName": "Kasa & Pratishyaya",
+    "category": "common",
+    "dosha": "Kapha",
+    "severity": "green",
+    "severityText": "🟢 GENERAL INFORMATION: Self-care information may be appropriate.",
+    "icon": "fa-head-side-cough",
+    "synonyms": [
+      "Flu",
+      "Common Cold",
+      "Runny Nose",
+      "Sore Throat",
+      "Sneezing",
+      "Nasal Congestion",
+      "Cough"
+    ],
+    "overview": "Ayurvedic information for cough (Kasa) and cold (Pratishyaya) focuses on liquefying excess Kapha mucus, warming the respiratory tract, and soothing throat irritation.",
+    "symptoms": [
+      "Runny or congested nose & sneezing",
+      "Dry or productive cough with throat tickle",
+      "Mild headache & watery eyes",
+      "Hoarseness of voice"
+    ],
+    "warningSigns": [
+      "High persistent fever over 39°C (102°F)",
+      "Severe difficulty breathing or chest pain",
+      "Coughing up blood or dark phlegm"
+    ],
+    "selfCare": [
+      "Golden Milk (turmeric with warm milk)",
+      "Ginger & honey tea",
+      "Steam inhalation with eucalyptus oil",
+      "Rest in warm room"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Sitopaladi Churna with honey",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Cold and Cough",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Tulsi & Pepper tea",
+        "type": "home_remedy",
+        "purpose": "Traditional supportive wellness approach for Cold and Cough",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Trikatu Churna for digestive support",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Cold and Cough",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Warm water or ginger-infused water",
+      "Moong dal soup",
+      "Avoid ice cold water, heavy dairy, fried foods"
+    ],
+    "yoga": [
+      "Anulom Vilom Pranayama",
+      "Bhastrika Pranayama"
+    ],
+    "whenToSeekHelp": "Consult a healthcare provider if cough persists beyond 2 weeks or if high fever and shortness of breath develop.",
+    "emergency": {
+      "required": false,
+      "notice": null,
+      "action": null
+    },
+    "safety": {
+      "evidenceLevel": "moderate",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Traditional herbal preparations provide supportive symptomatic comfort. Bacterial infections require medical evaluation."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "indigestion",
+    "name": "Indigestion",
+    "traditionalName": "Ajirna",
+    "category": "common",
+    "dosha": "Pitta",
+    "severity": "green",
+    "severityText": "🟢 GENERAL INFORMATION: Self-care information may be appropriate.",
+    "icon": "fa-utensils",
+    "synonyms": [
+      "Heartburn",
+      "Dyspepsia",
+      "Stomach Pain",
+      "Bloating",
+      "Upset Stomach"
+    ],
+    "overview": "In Ayurveda, indigestion (Ajirna) is associated with sluggish digestive fire (Agni). Carminative kitchen spices support healthy digestion.",
+    "symptoms": [
+      "Fullness & stomach heaviness after eating",
+      "Abdominal discomfort, gas, & burping",
+      "Loss of appetite & mild nausea"
+    ],
+    "warningSigns": [
+      "Severe unremitting abdominal pain",
+      "Black tarry stools or vomiting blood",
+      "Unexplained significant weight loss"
+    ],
+    "selfCare": [
+      "Cumin, Coriander & Fennel (CCF) tea",
+      "Chew fresh ginger with lemon & rock salt",
+      "Drink warm water post meals"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Hingwashtak Churna before meals",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Indigestion",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Spiced Buttermilk (Takra) with roasted cumin",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Indigestion",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Triphala powder at bedtime",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Indigestion",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Warm easily digestible khichdi",
+      "Avoid heavy, oily, fried foods & ice water during meals"
+    ],
+    "yoga": [
+      "Vajrasana (Thunderbolt Pose) after meals",
+      "Pawanmuktasana"
+    ],
+    "whenToSeekHelp": "Seek evaluation if indigestion is accompanied by persistent severe pain, swallowing difficulty, or vomiting.",
+    "emergency": {
+      "required": false,
+      "notice": null,
+      "action": null
+    },
+    "safety": {
+      "evidenceLevel": "moderate",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Digestive spices safely stimulate gastric motility; chronic symptoms require clinical evaluation for ulcers or GERD."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "acidity",
+    "name": "Acidity & GERD",
+    "traditionalName": "Amlapitta",
+    "category": "common",
+    "dosha": "Pitta",
+    "severity": "yellow",
+    "severityText": "🟡 MONITOR: Consider professional evaluation if symptoms persist.",
+    "icon": "fa-fire-alt",
+    "synonyms": [
+      "Heartburn",
+      "Acid Reflux",
+      "GERD",
+      "Burning Sensation",
+      "Gastric Issue"
+    ],
+    "overview": "In Ayurveda, acidity (Amlapitta) is associated with Pitta in the digestive tract. Cooling herbs and bitter-sweet foods help neutralize stomach heat.",
+    "symptoms": [
+      "Burning sensation in chest (heartburn) & upper stomach",
+      "Sour acid regurgitation in throat & mouth",
+      "Frequent belching & stomach burning"
+    ],
+    "warningSigns": [
+      "Difficulty or pain when swallowing",
+      "Persistent chest pain radiating to arm or jaw",
+      "Unexplained vomiting"
+    ],
+    "selfCare": [
+      "Aloe Vera juice in warm water",
+      "Cool milk with green cardamom",
+      "Fresh coconut water"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Mulethi (Licorice) root tea",
+        "type": "home_remedy",
+        "purpose": "Traditional supportive wellness approach for Acidity & GERD",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Coriander seed infusion",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Acidity & GERD",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Avipattikar Churna",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Acidity & GERD",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Sweet apples, melons, bananas, cucumber",
+      "Avoid spicy chili, sour citrus, fried grease, alcohol, coffee"
+    ],
+    "yoga": [
+      "Supta Baddha Konasana",
+      "Yoga Nidra for stress reduction"
+    ],
+    "whenToSeekHelp": "Consult a medical doctor if heartburn occurs more than twice a week or causes difficulty swallowing.",
+    "emergency": {
+      "required": false,
+      "notice": null,
+      "action": null
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Cooling herbs soothe gastric mucosal lining; severe acid reflux requires gastroenterological evaluation."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "headache",
+    "name": "Headache & Migraine",
+    "traditionalName": "Shirashoola",
+    "category": "common",
+    "dosha": "Vata",
+    "severity": "yellow",
+    "severityText": "🟡 MONITOR: Consider professional evaluation if symptoms persist.",
+    "icon": "fa-brain",
+    "synonyms": [
+      "Migraine",
+      "Cephalalgia",
+      "Head Pain",
+      "Tension Headache",
+      "Sinus Headache"
+    ],
+    "overview": "Ayurveda categorizes headaches based on Vata (throbbing pain), Pitta (burning/light sensitivity), or Kapha (dull heaviness) imbalances.",
+    "symptoms": [
+      "Throbbing or sharp pain on one or both sides of head",
+      "Sensitivity to bright light & loud sounds",
+      "Nausea & eye strain"
+    ],
+    "warningSigns": [
+      "Sudden severe 'thunderclap' headache",
+      "Headache with fever, stiff neck, or numbness",
+      "Headache following head injury"
+    ],
+    "selfCare": [
+      "Apply fresh ginger paste on forehead",
+      "Rest in dark quiet room",
+      "Warm compress"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Anu Taila Nasya drops in nostrils",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Headache & Migraine",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Brahmi & Shankhpushpi tea",
+        "type": "home_remedy",
+        "purpose": "Traditional supportive wellness approach for Headache & Migraine",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Shiroabhyanga (head oil massage)",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Headache & Migraine",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Warm cooked meals",
+      "Avoid skipping meals, caffeine excess, aged cheese, chocolate"
+    ],
+    "yoga": [
+      "Bhramari Pranayama (Bee Breath)",
+      "Sheetali Pranayama"
+    ],
+    "whenToSeekHelp": "Seek immediate medical care if headache is accompanied by neurological deficit, speech difficulty, or high fever.",
+    "emergency": {
+      "required": false,
+      "notice": null,
+      "action": null
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Calming herbs reduce stress-induced vascular tension; progressive severe headaches require medical imaging."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "joint-pain",
+    "name": "Joint Pain & Arthritis",
+    "traditionalName": "Sandhigata Vata",
+    "category": "common",
+    "dosha": "Vata",
+    "severity": "yellow",
+    "severityText": "🟡 MONITOR: Consider professional evaluation if symptoms persist.",
+    "icon": "fa-bone",
+    "synonyms": [
+      "Arthritis",
+      "Knee Pain",
+      "Rheumatism",
+      "Stiff Joints",
+      "Osteoarthritis"
+    ],
+    "overview": "Joint pain and stiffness occur when dry, cold Vata accumulates in joint structures. Warm herbal oils and gentle movement promote joint mobility.",
+    "symptoms": [
+      "Pain, stiffness, & crepitus in knees or fingers",
+      "Morning joint rigidity that eases with warmth",
+      "Swelling & restricted range of motion"
+    ],
+    "warningSigns": [
+      "Hot red swollen joint with fever",
+      "Inability to bear weight on joint",
+      "Joint deformity following trauma"
+    ],
+    "selfCare": [
+      "Warm Sesame & Mahanarayana oil massage (Abhyanga)",
+      "Warm Epsom salt bath"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Shallaki (Boswellia)",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Joint Pain & Arthritis",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Yograj Guggulu",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Joint Pain & Arthritis",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Ashwagandha",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Joint Pain & Arthritis",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Warm cooked nourishing foods with Ghee & Ginger",
+      "Avoid cold dry raw foods, exposed cold wind, icy drinks"
+    ],
+    "yoga": [
+      "Gentle Sukshma Vyayama joint movements",
+      "Tadasana"
+    ],
+    "whenToSeekHelp": "Consult an orthopedist if joint swelling is severe, hot, red, or accompanied by systemic fever.",
+    "emergency": {
+      "required": false,
+      "notice": null,
+      "action": null
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Anti-inflammatory herbs assist joint comfort; progressive structural joint degeneration requires orthopedic evaluation."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "constipation",
+    "name": "Constipation",
+    "traditionalName": "Vibandha",
+    "category": "common",
+    "dosha": "Vata",
+    "severity": "green",
+    "severityText": "🟢 GENERAL INFORMATION: Self-care information may be appropriate.",
+    "icon": "fa-notes-medical",
+    "synonyms": [
+      "Hard Stools",
+      "Irregular Bowel Movements",
+      "Digestive Issue",
+      "Bloating"
+    ],
+    "overview": "In Ayurveda, constipation is associated with dry Vata in the colon. Dietary hydration, healthy oils, and gentle fiber support regular bowel motility.",
+    "symptoms": [
+      "Infrequent, hard, or dry bowel movements",
+      "Abdominal heaviness & bloating",
+      "Feeling of incomplete evacuation"
+    ],
+    "warningSigns": [
+      "Severe abdominal pain or distension",
+      "Rectal bleeding or dark tarry stools",
+      "Sudden onset constipation in older adults"
+    ],
+    "selfCare": [
+      "Drink 2-3L warm water daily",
+      "Eat soaked raisins or figs in morning",
+      "Warm milk with 1 tsp Ghee at night"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Triphala Churna at bedtime",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Constipation",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Isabgol (Psyllium husk) in warm water",
+        "type": "home_remedy",
+        "purpose": "Traditional supportive wellness approach for Constipation",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Abhayarishta",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Constipation",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Ripe papaya, prunes, flaxseeds, leafy greens",
+      "Avoid refined white flour (Maida) & dry processed foods"
+    ],
+    "yoga": [
+      "Malasana (Garland Pose)",
+      "Pawanmuktasana"
+    ],
+    "whenToSeekHelp": "Seek medical evaluation if constipation lasts over 2 weeks or is accompanied by blood in stool or weight loss.",
+    "emergency": {
+      "required": false,
+      "notice": null,
+      "action": null
+    },
+    "safety": {
+      "evidenceLevel": "moderate",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Bulk-forming fiber and mild herbal laxatives support bowel regularity; structural intestinal obstruction requires clinical care."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "skin-rashes",
+    "name": "Skin Rashes & Dermatitis",
+    "traditionalName": "Tvak Vikara",
+    "category": "common",
+    "dosha": "Pitta",
+    "severity": "yellow",
+    "severityText": "🟡 MONITOR: Consider professional evaluation if symptoms persist.",
+    "icon": "fa-allergies",
+    "synonyms": [
+      "Dermatitis",
+      "Itching",
+      "Eczema",
+      "Hives",
+      "Skin Allergy",
+      "Redness"
+    ],
+    "overview": "Skin irritation and rashes (Kushtha/Urticaria) stem from Pitta and Rakta (blood) heat. Blood purifiers (Raktashodhaka) cool and soothe skin tissue.",
+    "symptoms": [
+      "Redness, burning sensation, & skin inflammation",
+      "Itching (Kandu) or raised hives",
+      "Dry patches, flaking, or small bumps"
+    ],
+    "warningSigns": [
+      "Rapidly spreading rash with fever or facial swelling",
+      "Blistering or open infected skin lesions",
+      "Difficulty breathing accompanying hives"
+    ],
+    "selfCare": [
+      "Apply fresh Neem water wash",
+      "Apply pure Sandalwood paste with Rose water",
+      "Fresh Aloe Vera gel"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Manjistha powder",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Skin Rashes & Dermatitis",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Khadirarishta blood purifier",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Skin Rashes & Dermatitis",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Nimbadi Churna",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Skin Rashes & Dermatitis",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Coconut water, cucumber juice, coriander tea",
+      "Avoid sour, spicy, salty, fried foods & alcohol"
+    ],
+    "yoga": [
+      "Sheetali Pranayama",
+      "Anulom Vilom"
+    ],
+    "whenToSeekHelp": "Consult a dermatologist if rash spreads rapidly, blisters, or causes severe skin pain.",
+    "emergency": {
+      "required": false,
+      "notice": null,
+      "action": null
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Cooling herbs soothe skin irritation; severe acute allergic reaction (anaphylaxis) requires emergency medical care."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "obesity",
+    "name": "Obesity & Weight Management",
+    "traditionalName": "Sthoulya",
+    "category": "lifestyle",
+    "dosha": "Kapha",
+    "severity": "yellow",
+    "severityText": "🟡 MONITOR: Consider professional evaluation if symptoms persist.",
+    "icon": "fa-weight",
+    "synonyms": [
+      "Weight Gain",
+      "Overweight",
+      "Fat Accumulation",
+      "Body Fat",
+      "Metabolism Issue"
+    ],
+    "overview": "In Ayurveda, Obesity (Sthoulya) involves excess Meda Dhatu (fat tissue) and sluggish Agni. Scraping herbs (Lekhana) and physical exercise support metabolic vitality.",
+    "symptoms": [
+      "Excess body fat accumulation around abdomen & hips",
+      "Shortness of breath during mild activity",
+      "Lethargy & excessive sweating"
+    ],
+    "warningSigns": [
+      "Chest pain during physical activity",
+      "Severe obstructive sleep apnea",
+      "Extreme joint pain hindering mobility"
+    ],
+    "selfCare": [
+      "Warm water with honey & lemon in morning",
+      "Warm cinnamon-ginger tea",
+      "Daily brisk walking"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Triphala Churna",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Obesity & Weight Management",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Medohar Guggulu tablets",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Obesity & Weight Management",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Vrikshamla (Garcinia Cambogia)",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Obesity & Weight Management",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Barley (Yava), Millets, Quinoa, Bitter greens, Legumes",
+      "Avoid daytime naps, heavy dinners, refined sugars, fried food"
+    ],
+    "yoga": [
+      "Surya Namaskar (12 rounds)",
+      "Trikonasana",
+      "Bhujangasana"
+    ],
+    "whenToSeekHelp": "Consult a doctor to evaluate for underlying metabolic or endocrine causes such as Hypothyroidism.",
+    "emergency": {
+      "required": false,
+      "notice": null,
+      "action": null
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Traditional metabolic herbs support digestion; sustainable weight management requires long-term dietary and lifestyle habit changes."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "toothache",
+    "name": "Toothache & Dental Care",
+    "traditionalName": "Danta Shoola",
+    "category": "common",
+    "dosha": "Kapha",
+    "severity": "green",
+    "severityText": "🟢 GENERAL INFORMATION: Self-care information may be appropriate.",
+    "icon": "fa-tooth",
+    "synonyms": [
+      "Dental Pain",
+      "Cavity",
+      "Gum Pain",
+      "Tooth Sensitivity",
+      "Dental Infection"
+    ],
+    "overview": "Dental discomfort and gum sensitivity are addressed in Ayurveda using essential oils, astringent gargles (Kavala/Gandusha), and antibacterial herbs.",
+    "symptoms": [
+      "Sharp or throbbing pain in tooth or gum",
+      "Sensitivity to hot, cold, or sweet foods",
+      "Swollen or bleeding gums"
+    ],
+    "warningSigns": [
+      "Facial swelling spreading to cheek or eye",
+      "High fever with throbbing jaw pain",
+      "Difficulty opening mouth or swallowing"
+    ],
+    "selfCare": [
+      "Apply Clove oil directly on affected tooth with cotton",
+      "Warm salt water & Triphala gargle",
+      "Chew fresh Guava leaves"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Sesame Oil Pulling (Gandusha)",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Toothache & Dental Care",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Babool & Neem tooth powder",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Toothache & Dental Care",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Lavangadi Vati",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Toothache & Dental Care",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Soft warm food",
+      "Avoid refined sugars & ice cold beverages"
+    ],
+    "yoga": [
+      "Sheetkari Pranayama"
+    ],
+    "whenToSeekHelp": "Visit a dentist promptly for deep cavities, tooth decay, or dental abscesses.",
+    "emergency": {
+      "required": false,
+      "notice": null,
+      "action": null
+    },
+    "safety": {
+      "evidenceLevel": "moderate",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Clove oil provides temporary local numbing; deep dental pulp infections require dental intervention."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "fever",
+    "name": "Fever",
+    "traditionalName": "Jwara",
+    "category": "common",
+    "dosha": "Pitta",
+    "severity": "orange",
+    "severityText": "🟠 MEDICAL EVALUATION: Professional medical assessment is recommended.",
+    "icon": "fa-thermometer-half",
+    "synonyms": [
+      "High Temperature",
+      "Viral Fever",
+      "Body Heat",
+      "Chills",
+      "Temperature Spike"
+    ],
+    "overview": "Ayurvedic management of fever focuses on pacifying Pitta dosha, eliminating Ama (toxins), restoring digestive fire (Agni), and maintaining hydration.",
+    "symptoms": [
+      "High body temperature & flushing",
+      "Chills, shivering, & body aches",
+      "Loss of appetite & excessive thirst"
+    ],
+    "warningSigns": [
+      "Persistent fever exceeding 39°C (102°F) over 3 days",
+      "Stiff neck, severe headache, or confusion",
+      "Unexplained skin rash or breathlessness"
+    ],
+    "selfCare": [
+      "Sip warm coriander & cumin tea",
+      "Lukewarm water sponge bath",
+      "Complete bed rest"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Tulsi & Ginger decoction",
+        "type": "home_remedy",
+        "purpose": "Traditional supportive wellness approach for Fever",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Sudarshan Ghan Vati",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Fever",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Amritarishta",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Fever",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Light Moong dal khichdi, warm vegetable soups, pomegranate juice",
+      "Avoid oily, fried, cold foods"
+    ],
+    "yoga": [
+      "Shavasana (Corpse Pose)",
+      "Anulom Vilom"
+    ],
+    "whenToSeekHelp": "Consult a medical doctor if fever lasts over 3 days or is accompanied by severe lethargy, stiff neck, or rash.",
+    "emergency": {
+      "required": false,
+      "notice": null,
+      "action": null
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Antipyretic herbs support body cooling; acute high fevers require clinical diagnostic blood tests."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "back-pain",
+    "name": "Back Pain & Lumbar Care",
+    "traditionalName": "Kati Shoola",
+    "category": "common",
+    "dosha": "Vata",
+    "severity": "yellow",
+    "severityText": "🟡 MONITOR: Consider professional evaluation if symptoms persist.",
+    "icon": "fa-user-nurse",
+    "synonyms": [
+      "Lumbago",
+      "Lower Back Pain",
+      "Spine Pain",
+      "Posture Pain",
+      "Muscle Stiffness"
+    ],
+    "overview": "In Ayurveda, back pain is associated with Vata imbalance in the lower spine and spinal musculature. Warm herbal oils and heat therapy restore flexibility.",
+    "symptoms": [
+      "Dull aching or sharp pain in lower/upper back",
+      "Spinal stiffness, especially upon waking",
+      "Muscle spasms & restricted bending"
+    ],
+    "warningSigns": [
+      "Back pain with loss of bowel or bladder control",
+      "Progressive leg weakness or numbness (sciatica)",
+      "Pain following major physical trauma"
+    ],
+    "selfCare": [
+      "Warm Mahanarayana oil back massage",
+      "Warm Epsom salt bath or hot compress"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Garlic Milk (Lashuna Ksheerapaka)",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Back Pain & Lumbar Care",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Shallaki & Ashwagandha",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Back Pain & Lumbar Care",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Kati Basti therapy",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Back Pain & Lumbar Care",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Warm nourishing food cooked with Ghee",
+      "Avoid cold dry foods & heavy lifting"
+    ],
+    "yoga": [
+      "Bhujangasana (Cobra Pose)",
+      "Marjaryasana (Cat-Cow Pose)"
+    ],
+    "whenToSeekHelp": "Seek urgent medical care if back pain causes leg numbness, progressive weakness, or loss of bladder control.",
+    "emergency": {
+      "required": false,
+      "notice": null,
+      "action": null
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Warm herbal oils relieve paraspinal muscle spasm; structural disc herniations require MRI evaluation."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "sinusitis",
+    "name": "Sinusitis",
+    "traditionalName": "Peenasa",
+    "category": "common",
+    "dosha": "Kapha",
+    "severity": "yellow",
+    "severityText": "🟡 MONITOR: Consider professional evaluation if symptoms persist.",
+    "icon": "fa-head-side-mask",
+    "synonyms": [
+      "Sinus Infection",
+      "Nasal Congestion",
+      "Sinus Pressure",
+      "Facial Pain"
+    ],
+    "overview": "Ayurvedic care for sinus congestion (Peenasa) clears Kapha mucus from sinus passages using steam, nasal oils (Nasya), and warming herbal teas.",
+    "symptoms": [
+      "Facial pressure & pain around forehead/eyes",
+      "Nasal blockage & thick post-nasal drip",
+      "Loss of smell & sinus headache"
+    ],
+    "warningSigns": [
+      "Swelling or redness around eyes or forehead",
+      "High fever with severe facial pain",
+      "Vision changes or confusion"
+    ],
+    "selfCare": [
+      "Ajwain steam inhalation",
+      "Hot compress over cheeks & forehead"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Anu Taila Nasya drops",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Sinusitis",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Tulsi & Pepper tea",
+        "type": "home_remedy",
+        "purpose": "Traditional supportive wellness approach for Sinusitis",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Shadbindu Taila",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Sinusitis",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Warm soups, ginger water",
+      "Avoid cold drinks, ice cream, heavy dairy, cold wind"
+    ],
+    "yoga": [
+      "Neti Kriya (Saline nasal rinse)",
+      "Kapalbhati"
+    ],
+    "whenToSeekHelp": "Consult a doctor if sinus infection lasts over 10 days or causes eye swelling or high fever.",
+    "emergency": {
+      "required": false,
+      "notice": null,
+      "action": null
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Nasal oil drops clear sinus passages; severe bacterial sinusitis requires antibiotic treatment."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "anemia",
+    "name": "Anemia",
+    "traditionalName": "Pandu Roga",
+    "category": "chronic",
+    "dosha": "Pitta",
+    "severity": "orange",
+    "severityText": "🟠 MEDICAL EVALUATION: Professional medical assessment is recommended.",
+    "icon": "fa-tint",
+    "synonyms": [
+      "Low Hemoglobin",
+      "Weakness",
+      "Iron Deficiency",
+      "Fatigue",
+      "Pale Skin"
+    ],
+    "overview": "In Ayurveda, Anemia (Pandu Roga) involves Pitta imbalance affecting Rakta Dhatu (blood tissue). Iron-boosting rasayanas rebuild hemoglobin naturally.",
+    "symptoms": [
+      "Pale skin, fatigue, & physical weakness",
+      "Dizziness & shortness of breath on exertion",
+      "Brittle nails & loss of appetite"
+    ],
+    "warningSigns": [
+      "Chest pain, shortness of breath at rest, or fainting",
+      "Black tarry stools or active bleeding"
+    ],
+    "selfCare": [
+      "Fresh Amla juice with honey",
+      "Pomegranate juice daily",
+      "Cook in cast iron cookware"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Punarnavadi Mandoor",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Anemia",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Dhatri Lauha",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Anemia",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Lohasava",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Anemia",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Beets, spinach, dates, figs, raisins, sesame seeds",
+      "Avoid excessive tea/coffee during meals"
+    ],
+    "yoga": [
+      "Gentle Pranayama",
+      "Viparita Karani"
+    ],
+    "whenToSeekHelp": "Get blood hemoglobin checked; severe anemia requires clinical iron supplementation.",
+    "emergency": {
+      "required": false,
+      "notice": null,
+      "action": null
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Iron-rich herbs enhance red blood cell production; severe blood loss requires emergency blood evaluation."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "diabetes",
+    "name": "Diabetes",
+    "traditionalName": "Madhumeha",
+    "category": "chronic",
+    "dosha": "Kapha",
+    "severity": "orange",
+    "severityText": "🟠 MEDICAL EVALUATION: Professional medical assessment is recommended.",
+    "icon": "fa-vial",
+    "synonyms": [
+      "High Blood Sugar",
+      "Hyperglycemia",
+      "Type 1 Diabetes",
+      "Type 2 Diabetes",
+      "Madhumeha"
+    ],
+    "overview": "In Ayurveda, Diabetes is categorized under Prameha (primarily Kapha imbalance). Management involves herbal insulin-sensitizers, digestive stimulant herbs (Agni Deepana), and daily exercise.",
+    "symptoms": [
+      "Excessive urination & increased thirst",
+      "Unexplained fatigue & weakness",
+      "Slow-healing minor cuts or skin infections"
+    ],
+    "warningSigns": [
+      "Confusion, fruity breath odor, or vomiting (Ketoacidosis alert)",
+      "Blood glucose > 300 mg/dL or severe hypoglycemia < 70 mg/dL"
+    ],
+    "selfCare": [
+      "Bitter gourd (Karela) juice 30ml in morning",
+      "Soaked fenugreek seeds (Methi)",
+      "Daily brisk walking"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Gurmar (Gymnema)",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Diabetes",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Nisha-Amalaki (Turmeric + Amla)",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Diabetes",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Chandraprabha Vati",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Diabetes",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Barley, Millets, Quinoa, Bitter greens, Amla, Jamun",
+      "Avoid refined sugars, white flour, sweet fruits, daytime naps"
+    ],
+    "yoga": [
+      "Mandukasana (Frog Pose)",
+      "Ardha Matsyendrasana"
+    ],
+    "whenToSeekHelp": "Monitor blood glucose regularly; diabetes management requires ongoing physician supervision.",
+    "emergency": {
+      "required": false,
+      "notice": null,
+      "action": null
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Herbal antidiabetics assist glycemic control; do not stop prescribed insulin or antidiabetic drugs without medical advice."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "hypertension",
+    "name": "Hypertension",
+    "traditionalName": "Rakta Chapa",
+    "category": "chronic",
+    "dosha": "Pitta",
+    "severity": "orange",
+    "severityText": "🟠 MEDICAL EVALUATION: Professional medical assessment is recommended.",
+    "icon": "fa-heartbeat",
+    "synonyms": [
+      "High Blood Pressure",
+      "BP Issue",
+      "Hypertensive",
+      "Cardiovascular Risk"
+    ],
+    "overview": "High blood pressure (Rakta Gata Vata / Pitta) is managed with cardiac tonics like Arjuna, nervous system calmers like Sarpagandha, and low-sodium diets.",
+    "symptoms": [
+      "Frequent occipital headache & dizziness",
+      "Restlessness & rapid heartbeat",
+      "Shortness of breath on mild exertion"
+    ],
+    "warningSigns": [
+      "BP > 180/120 mmHg (Hypertensive Crisis)",
+      "Chest pain, shortness of breath, or numbness/stroke signs"
+    ],
+    "selfCare": [
+      "Arjuna bark tea boiled in milk/water",
+      "1 crushed garlic clove daily",
+      "Low sodium diet"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Sarpagandha Ghan Vati",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Hypertension",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Arjunarishta",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Hypertension",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Brahmi Vati",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Hypertension",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Potassium-rich fruits, vegetables, garlic",
+      "Eliminate extra salt, processed snacks, alcohol"
+    ],
+    "yoga": [
+      "Shavasana (Corpse Pose)",
+      "20 mins daily Meditation"
+    ],
+    "whenToSeekHelp": "Monitor BP regularly; severe hypertension requires prescription antihypertensive medication.",
+    "emergency": {
+      "required": false,
+      "notice": null,
+      "action": null
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Arjuna bark supports myocardial function; hypertensive emergencies require emergency ER care."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "copd",
+    "name": "COPD",
+    "traditionalName": "Kaphaja Shwasa",
+    "category": "chronic",
+    "dosha": "Vata",
+    "severity": "orange",
+    "severityText": "🟠 MEDICAL EVALUATION: Professional medical assessment is recommended.",
+    "icon": "fa-lungs",
+    "synonyms": [
+      "Chronic Bronchitis",
+      "Lung Disease",
+      "Shortness of Breath",
+      "Wheezing"
+    ],
+    "overview": "Ayurvedic supportive care for COPD focuses on bronchodilator herbs (Vasaka, Kantakari), clearing airway phlegm, and strengthening lung capacity.",
+    "symptoms": [
+      "Chronic cough with mucus production",
+      "Shortness of breath during daily physical activity",
+      "Wheezing & chest tightness"
+    ],
+    "warningSigns": [
+      "Severe breathlessness at rest or blue lips/fingertips (Cyanosis)",
+      "Confusion or extreme drowsiness"
+    ],
+    "selfCare": [
+      "Vasaka (Adhatoda Vasica) decoction",
+      "Chyawanprash daily",
+      "Steam inhalation"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Kantakari Churna",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for COPD",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Agastya Haritaki",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for COPD",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Talisadi Churna",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for COPD",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Warm soups, warm water",
+      "Avoid smoking, air pollution, cold dusty environments"
+    ],
+    "yoga": [
+      "Anulom Vilom Pranayama",
+      "Diaphragmatic breathing"
+    ],
+    "whenToSeekHelp": "Seek urgent medical care if oxygen saturation drops or severe breathing difficulty occurs.",
+    "emergency": {
+      "required": false,
+      "notice": null,
+      "action": null
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Herbal bronchodilators improve airway clearance; chronic respiratory failure requires pulmonology care."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "asthma",
+    "name": "Asthma",
+    "traditionalName": "Tamaka Shwasa",
+    "category": "chronic",
+    "dosha": "Kapha",
+    "severity": "orange",
+    "severityText": "🟠 MEDICAL EVALUATION: Professional medical assessment is recommended.",
+    "icon": "fa-lungs-virus",
+    "synonyms": [
+      "Breathing Difficulty",
+      "Wheezing",
+      "Respiratory Problem",
+      "Chest Tightness"
+    ],
+    "overview": "Asthma (Tamaka Shwasa) is caused by obstruction of Vata by Kapha in the respiratory channels (Pranavaha Srotas). Warming expectorant herbs ease breathing.",
+    "symptoms": [
+      "Episodes of breathlessness, wheezing, & chest tightness",
+      "Coughing fits worsening at night or early morning",
+      "Difficulty exhaling completely"
+    ],
+    "warningSigns": [
+      "Inability to speak full sentences due to breathlessness",
+      "Ineffective rescue inhaler during acute asthma attack"
+    ],
+    "selfCare": [
+      "Ginger & Clove tea",
+      "Warm chest mustard oil compress"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Vasavaleha syrup",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Asthma",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Agastya Haritaki Rasayana",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Asthma",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Shwasa Kuthar Ras",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Asthma",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Warm food, ginger tea",
+      "Avoid cold food, dairy, bananas, allergen triggers"
+    ],
+    "yoga": [
+      "Bhastrika Pranayama",
+      "Surya Namaskar"
+    ],
+    "whenToSeekHelp": "Always keep prescribed emergency inhalers available; severe acute asthma attacks require ER care.",
+    "emergency": {
+      "required": false,
+      "notice": null,
+      "action": null
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Herbal formulations reduce bronchial hyper-reactivity; acute status asthmaticus requires emergency bronchodilators."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "jaundice",
+    "name": "Jaundice",
+    "traditionalName": "Kamala",
+    "category": "chronic",
+    "dosha": "Pitta",
+    "severity": "orange",
+    "severityText": "🟠 MEDICAL EVALUATION: Professional medical assessment is recommended.",
+    "icon": "fa-ribbon",
+    "synonyms": [
+      "Kamala",
+      "Liver Disorder",
+      "Yellow Skin",
+      "Hyperbilirubinemia",
+      "Yakrit Vikara"
+    ],
+    "overview": "In Ayurveda, Jaundice (Kamala) is a Pitta disorder affecting the liver (Yakrit) and blood (Rakta). Hepato-protective bitter herbs cool and detoxify liver cells.",
+    "symptoms": [
+      "Yellowish discoloration of eyes, skin, & nails",
+      "Dark yellow urine & pale-colored stools",
+      "Severe loss of appetite & fatigue"
+    ],
+    "warningSigns": [
+      "High fever, abdominal swelling (Ascites), or confusion",
+      "Persistent vomiting or severe abdominal pain"
+    ],
+    "selfCare": [
+      "Fresh clean Sugarcane juice",
+      "Fresh Amla juice",
+      "Complete bed rest"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Bhumyamalaki (Phyllanthus Niruri)",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Jaundice",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Katuki powder",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Jaundice",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Punarnavadi Kashayam",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Jaundice",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Bland Moong dal soup, boiled rice",
+      "Avoid all oily, fried, spicy food, & alcohol completely"
+    ],
+    "yoga": [
+      "Gentle Shavasana"
+    ],
+    "whenToSeekHelp": "Consult a doctor immediately; liver function tests (LFT) and viral hepatitis screening are mandatory.",
+    "emergency": {
+      "required": false,
+      "notice": null,
+      "action": null
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Bhumyamalaki protects hepatocytes; obstructive jaundice or severe viral hepatitis requires specialist care."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "typhoid",
+    "name": "Typhoid",
+    "traditionalName": "Santata Jwara",
+    "category": "common",
+    "dosha": "Pitta",
+    "severity": "orange",
+    "severityText": "🟠 MEDICAL EVALUATION: Professional medical assessment is recommended.",
+    "icon": "fa-bacteria",
+    "synonyms": [
+      "Enteric Fever",
+      "Salmonella Infection",
+      "High Fever",
+      "Abdominal Pain"
+    ],
+    "overview": "Typhoid (Salmonella enteric infection) is an acute systemic fever. Bitter antipyretic herbs support immune response alongside essential antibiotic therapy.",
+    "symptoms": [
+      "Step-ladder high fever",
+      "Abdominal pain, weakness, & rose spots on chest",
+      "Constipation or diarrhea"
+    ],
+    "warningSigns": [
+      "Severe abdominal pain (Risk of intestinal perforation)",
+      "Blood in stool or extreme lethargy"
+    ],
+    "selfCare": [
+      "Boiled cooled water",
+      "Hydrating barley water & rice gruel"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Sudarshan Churna",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Typhoid",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Kiratatikta Kashayam",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Typhoid",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Amritarishta",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Typhoid",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Soft easily digestible rice gruel, soups",
+      "Avoid raw unwashed food, street food, heavy meals"
+    ],
+    "yoga": [
+      "Bed rest"
+    ],
+    "whenToSeekHelp": "Blood Widal / Typhidot tests and prescribed antibiotic therapy are essential.",
+    "emergency": {
+      "required": false,
+      "notice": null,
+      "action": null
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Herbal antipyretics provide supportive care; bacterial typhoid requires definitive antibiotic therapy."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "thyroid",
+    "name": "Thyroid Care & Balance",
+    "traditionalName": "Galaganda & Kanthamala",
+    "category": "chronic",
+    "dosha": "Kapha",
+    "severity": "yellow",
+    "severityText": "🟡 MONITOR: Consider professional evaluation if symptoms persist.",
+    "icon": "fa-stethoscope",
+    "synonyms": [
+      "Goiter",
+      "Hypothyroidism",
+      "Hyperthyroidism",
+      "Hormonal Imbalance",
+      "Thyroiditis"
+    ],
+    "overview": "In Ayurveda, Thyroid imbalances (Galaganda) involve Kapha and Meda Dhatu blockages in the throat region. Guggulu resins and iodine-rich seaweeds support glandular balance.",
+    "symptoms": [
+      "Unexplained weight gain or weight loss",
+      "Chronic fatigue, sensitivity to cold/heat, & neck fullness",
+      "Dry skin & hair thinning"
+    ],
+    "warningSigns": [
+      "Rapidly enlarging neck lump or difficulty swallowing",
+      "Extreme palpitations or severe tremor"
+    ],
+    "selfCare": [
+      "Kanchanar Guggulu decoction",
+      "Coriander seed water in morning",
+      "Neck yoga stretches"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Kanchanar Guggulu",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Thyroid Care & Balance",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Punarnava",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Thyroid Care & Balance",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Jatamansi",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Thyroid Care & Balance",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Coconut oil, brazil nuts, selenium-rich seeds, cooked brassicas",
+      "Avoid excessive soy & raw goitrogens"
+    ],
+    "yoga": [
+      "Sarvangasana (Shoulder Stand)",
+      "Ujjayi Pranayama"
+    ],
+    "whenToSeekHelp": "Regular TSH/T3/T4 thyroid blood tests and physician management are recommended.",
+    "emergency": {
+      "required": false,
+      "notice": null,
+      "action": null
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Kanchanar Guggulu assists glandular lymph drainage; clinical hypothyroidism requires endocrine hormone evaluation."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "malaria",
+    "name": "Malaria",
+    "traditionalName": "Visham Jwara",
+    "category": "common",
+    "dosha": "Pitta",
+    "severity": "orange",
+    "severityText": "🟠 MEDICAL EVALUATION: Professional medical assessment is recommended.",
+    "icon": "fa-mosquito",
+    "synonyms": [
+      "Mosquito-Borne Disease",
+      "Fever",
+      "Chills",
+      "Sweating",
+      "Fatigue"
+    ],
+    "overview": "In Ayurveda, Malaria is classified under Visham Jwara (intermittent fever). Antipyretic bitter herbs (Tikta Rasa) break fever spikes.",
+    "symptoms": [
+      "High fever paroxysms accompanied by intense shivering & chills",
+      "Profuse sweating when temperature drops",
+      "Headache & severe fatigue"
+    ],
+    "warningSigns": [
+      "Confusion, seizures, or dark tea-colored urine (Blackwater fever)",
+      "Extreme breathlessness"
+    ],
+    "selfCare": [
+      "Sip warm coconut water",
+      "Papaya leaf juice"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Kiratatikta (Swertia Chirata)",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Malaria",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Sudarshan Ghan Vati",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Malaria",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Guduchi (Giloy) juice",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Malaria",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Light soups, rice gruel",
+      "Avoid heavy greasy meals"
+    ],
+    "yoga": [
+      "Bed rest"
+    ],
+    "whenToSeekHelp": "Immediate blood smear / RDT test for Plasmodium and antimalarial treatment is mandatory.",
+    "emergency": {
+      "required": false,
+      "notice": null,
+      "action": null
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Giloy and Kiratatikta possess antipyretic properties; Plasmodium falciparum infection requires medical hospitalization."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "diarrhea",
+    "name": "Diarrhea & Loose Motions",
+    "traditionalName": "Atisara",
+    "category": "common",
+    "dosha": "Pitta",
+    "severity": "orange",
+    "severityText": "🟠 MEDICAL EVALUATION: Professional medical assessment is recommended.",
+    "icon": "fa-toilet-paper",
+    "synonyms": [
+      "Diarrhea",
+      "Frequent Stools",
+      "Watery Stools",
+      "Intestinal Infection",
+      "Atisara"
+    ],
+    "overview": "In Ayurveda, Diarrhea (Atisara) is caused by weak digestive fire (Agni) and excess fluid in intestines. Astringent herbs (Grahi) absorb excess fluids and soothe inflammation.",
+    "symptoms": [
+      "Frequent, watery loose stools & abdominal cramps",
+      "Dehydration, weakness, & thirst",
+      "Abdominal gurgling"
+    ],
+    "warningSigns": [
+      "Signs of severe dehydration (sunken eyes, dry mouth, no urine)",
+      "High fever or blood/mucus in stool (Dysentery)"
+    ],
+    "selfCare": [
+      "ORS solution or boiled water with salt & sugar",
+      "Spiced buttermilk (Takra) with roasted cumin",
+      "Unripe Bael fruit pulp"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Kutajarishta",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Diarrhea & Loose Motions",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Kutaja Ghan Vati",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Diarrhea & Loose Motions",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Bilwadi Churna",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Diarrhea & Loose Motions",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Boiled rice gruel (Peya), stewed apple, banana",
+      "Avoid milk, oily food, spicy chili, raw salad"
+    ],
+    "yoga": [
+      "Bed rest"
+    ],
+    "whenToSeekHelp": "Seek urgent care if diarrhea affects infants/elderly or persists over 48 hours with dehydration.",
+    "emergency": {
+      "required": false,
+      "notice": null,
+      "action": null
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Astringent herbs bind bowel contents; acute bacterial dysentery requires rehydration and antimicrobial care."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "piles",
+    "name": "Piles & Hemorrhoids",
+    "traditionalName": "Arshas",
+    "category": "common",
+    "dosha": "Vata",
+    "severity": "orange",
+    "severityText": "🟠 MEDICAL EVALUATION: Professional medical assessment is recommended.",
+    "icon": "fa-procedures",
+    "synonyms": [
+      "Hemorrhoids",
+      "Anal Swelling",
+      "Rectal Bleeding",
+      "Arshas"
+    ],
+    "overview": "In Ayurveda, Piles (Arshas) are associated with chronic constipation, straining, and Apana Vata imbalance. Stool softeners and venous toning herbs provide relief.",
+    "symptoms": [
+      "Painful bowel movements & bright red rectal bleeding",
+      "Swelling or lump near anal opening",
+      "Anal itching & discomfort"
+    ],
+    "warningSigns": [
+      "Severe continuous rectal bleeding leading to weakness",
+      "Strangulated or thrombosed hemorrhoid causing intense pain"
+    ],
+    "selfCare": [
+      "Warm Sitz bath with Triphala decoction for 15 mins",
+      "High fiber diet & 3L water daily"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Abhayarishta",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Piles & Hemorrhoids",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Triphala Guggulu",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Piles & Hemorrhoids",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Kankayana Vati",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Piles & Hemorrhoids",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Figs, papaya, oats, green leafy vegetables, Isabgol",
+      "Avoid prolonged sitting, straining, spicy chili, alcohol"
+    ],
+    "yoga": [
+      "Ashwini Mudra",
+      "Malasana"
+    ],
+    "whenToSeekHelp": "Consult a proctologist if rectal bleeding is heavy, continuous, or accompanied by severe pain.",
+    "emergency": {
+      "required": false,
+      "notice": null,
+      "action": null
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Veno-tonic herbs reduce hemorrhoidal swelling; prolapsed third/fourth degree piles require proctological intervention."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "depression",
+    "name": "Mental Wellness & Mood",
+    "traditionalName": "Vishada",
+    "category": "lifestyle",
+    "dosha": "Vata",
+    "severity": "orange",
+    "severityText": "🟠 MEDICAL EVALUATION: Professional medical assessment is recommended.",
+    "icon": "fa-user-astronaut",
+    "synonyms": [
+      "Mood Disorder",
+      "Sadness",
+      "Hopelessness",
+      "Loss of Interest",
+      "Manas Roga"
+    ],
+    "overview": "In Ayurveda, mental health support (Manas Roga) involves Vata and Kapha balance affecting nervous system channels. Medhya Rasayanas support emotional resilience.",
+    "symptoms": [
+      "Persistent sadness, emotional numbness, & low mental energy",
+      "Anxiety, restless sleep or insomnia",
+      "Loss of interest in daily life & brain fog"
+    ],
+    "warningSigns": [
+      "Thoughts of self-harm or suicide (Immediate Crisis Alert)",
+      "Inability to perform basic self-care"
+    ],
+    "selfCare": [
+      "Warm Sesame oil head massage (Shiroabhyanga)",
+      "Sunlight exposure & gentle walking"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Brahmi (Bacopa)",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Mental Wellness & Mood",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Shankhpushpi",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Mental Wellness & Mood",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Ashwagandha",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Mental Wellness & Mood",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Jatamansi",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Mental Wellness & Mood",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Fresh wholesome sattvic meals, warm milk with nutmeg",
+      "Avoid junk food, alcohol, isolation"
+    ],
+    "yoga": [
+      "Bhramari Pranayama (Bee Breath)",
+      "Yoga Nidra"
+    ],
+    "whenToSeekHelp": "Call mental health crisis helplines or consult a psychiatrist if experiencing thoughts of self-harm.",
+    "emergency": {
+      "required": false,
+      "notice": null,
+      "action": null
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Medhya Rasayanas support neurotransmitter balance; clinical depression requires professional psychological support."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "rabies",
+    "name": "Rabies Risk & Animal Exposure",
+    "traditionalName": "Alarka Visha",
+    "category": "rare",
+    "dosha": "Pitta",
+    "severity": "red",
+    "severityText": "🔴 URGENT: Seek urgent emergency medical attention.",
+    "icon": "fa-biohazard",
+    "synonyms": [
+      "Viral Infection",
+      "Animal Bite",
+      "Hydrophobia",
+      "Mad Dog Bite"
+    ],
+    "overview": "Medical priority protocol for suspected Rabies (Alarka Visha) exposure following animal bites or scratches.",
+    "symptoms": [
+      "Hydrophobia (fear of water) & aerophobia",
+      "Agitation, confusion, & excessive salivation",
+      "Fever & tingling at bite site"
+    ],
+    "warningSigns": [
+      "ANY animal bite or scratch from dog, cat, monkey, bat"
+    ],
+    "selfCare": [
+      "Wash wound vigorously with running water and soap for 15 minutes",
+      "Apply Povidone-iodine antiseptic",
+      "DO NOT apply chili, mud, or tight bandage"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Supportive hospital emergency protocol only",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Rabies Risk & Animal Exposure",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Immediate hospital ER care"
+    ],
+    "yoga": [
+      "Immediate hospital ER care"
+    ],
+    "whenToSeekHelp": "RUSH TO HOSPITAL ER IMMEDIATELY FOR ANTI-RABIES VACCINE (Days 0, 3, 7, 14, 28) and Rabies Immunoglobulin.",
+    "emergency": {
+      "required": true,
+      "notice": "🔴 URGENT EMERGENCY NOTICE: Rabies is 100% fatal once symptoms begin. Home remedies CANNOT cure Rabies. IMMEDIATELY wash wound under running soap and water for 15 minutes and go directly to the ER for Post-Exposure Prophylaxis (PEP) Vaccination!",
+      "action": "Go directly to the nearest Hospital ER for Rabies Post-Exposure Prophylaxis (PEP) / Anti-Snake Venom (ASV) and call 112."
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Post-Exposure Prophylaxis (PEP) is the ONLY scientifically proven life-saving intervention for Rabies exposure."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "animal-bites",
+    "name": "Animal & Venomous Bites",
+    "traditionalName": "Damsha Visha",
+    "category": "common",
+    "dosha": "Pitta",
+    "severity": "red",
+    "severityText": "🔴 URGENT: Seek urgent emergency medical attention.",
+    "icon": "fa-dog",
+    "synonyms": [
+      "Rabies Risk",
+      "Infected Bite",
+      "Snake Bite",
+      "Venomous Bite"
+    ],
+    "overview": "Medical priority guidelines for animal bites, scratches, and venomous exposures.",
+    "symptoms": [
+      "Puncture wounds, bleeding, & tissue swelling",
+      "Severe pain & risk of Rabies/Tetanus/Venom transmission"
+    ],
+    "warningSigns": [
+      "Snake bite, stray animal bite, or rapidly spreading redness/swelling"
+    ],
+    "selfCare": [
+      "15-minute soap and water flush",
+      "Immobilize limb below heart level for snake bite",
+      "DO NOT cut wound or suck venom"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Emergency medical trauma care",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Animal & Venomous Bites",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Hospital ER care"
+    ],
+    "yoga": [
+      "Keep patient calm and still"
+    ],
+    "whenToSeekHelp": "Go immediately to an emergency hospital for Anti-Snake Venom (ASV) or Anti-Rabies Vaccination.",
+    "emergency": {
+      "required": true,
+      "notice": "🔴 URGENT EMERGENCY NOTICE: Animal and snake bites carry severe Rabies, Tetanus, and envenomation risks. Wash wound with soap/water for 15 mins and go straight to an ER or Trauma Center!",
+      "action": "Go directly to the nearest Hospital ER for Rabies Post-Exposure Prophylaxis (PEP) / Anti-Snake Venom (ASV) and call 112."
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Immediate hospital emergency care is mandatory for all venomous and Rabies-risk animal exposures."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "burns",
+    "name": "Burns & Thermal Injury",
+    "traditionalName": "Dagdha Vrana",
+    "category": "common",
+    "dosha": "Pitta",
+    "severity": "red",
+    "severityText": "🔴 URGENT: Seek urgent emergency medical attention.",
+    "icon": "fa-fire",
+    "synonyms": [
+      "Thermal Injury",
+      "Severe Skin Damage",
+      "Scalds",
+      "Chemical Burns"
+    ],
+    "overview": "In Ayurveda, burn injuries (Dagdha Vrana) cause acute Pitta and Agni inflammation in skin layers (Tvak). Immediate cooling prevents deep tissue destruction.",
+    "symptoms": [
+      "Redness, blistering, severe skin pain",
+      "Charred skin or numbness (3rd degree burn)"
+    ],
+    "warningSigns": [
+      "Burns larger than palm size, facial/hand burns, chemical/electrical burns, or charring"
+    ],
+    "selfCare": [
+      "Hold under cool running tap water for 10-20 minutes",
+      "Cover loosely with sterile non-stick bandage",
+      "DO NOT pop blisters"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Shatadhauta Ghrita (100-times washed ghee) for minor 1st degree burns",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Burns & Thermal Injury",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Aloe Vera gel",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Burns & Thermal Injury",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Honey for minor burns",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Burns & Thermal Injury",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Hydration",
+      "Hospital care for major burns"
+    ],
+    "yoga": [
+      "Rest"
+    ],
+    "whenToSeekHelp": "All moderate to severe burns require professional hospital burn unit care.",
+    "emergency": {
+      "required": true,
+      "notice": "🔴 URGENT EMERGENCY NOTICE: For 2nd/3rd degree, facial, or chemical burns, cool with running tap water for 15 mins and go directly to a Burn ER! Do NOT apply ice, butter, or toothpaste.",
+      "action": "Seek immediate emergency hospital evaluation or call 112."
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Immediate cool water flushing halts thermal depth progression; major burns require sterile burn unit care."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "pneumonia",
+    "name": "Pneumonia",
+    "traditionalName": "Shvasanaka Jwara",
+    "category": "chronic",
+    "dosha": "Kapha",
+    "severity": "red",
+    "severityText": "🔴 URGENT: Seek urgent emergency medical attention.",
+    "icon": "fa-head-side-virus",
+    "synonyms": [
+      "Severe Lung Infection",
+      "High Fever & Chest Pain"
+    ],
+    "overview": "Pneumonia is an acute inflammatory infection of lung alveoli causing fluid accumulation and respiratory distress.",
+    "symptoms": [
+      "High fever, severe chills, & chest pain when breathing",
+      "Coughing up rust or green phlegm",
+      "Rapid shallow breathing"
+    ],
+    "warningSigns": [
+      "Oxygen saturation < 92%, confusion, or blue lips (Cyanosis)"
+    ],
+    "selfCare": [
+      "Hospital emergency evaluation"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Supportive lung herbs after medical stabilization",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Pneumonia",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Warm fluids"
+    ],
+    "yoga": [
+      "Rest"
+    ],
+    "whenToSeekHelp": "Go to ER immediately for severe breathing difficulty or low oxygen saturation.",
+    "emergency": {
+      "required": true,
+      "notice": "🔴 URGENT EMERGENCY NOTICE: Pneumonia can cause respiratory failure. Seek immediate emergency hospital care for chest X-ray and antibiotic/oxygen therapy!",
+      "action": "Seek immediate emergency hospital evaluation or call 112."
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Bacterial pneumonia requires prompt antibiotic therapy and medical monitoring."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "cystic-fibrosis",
+    "name": "Cystic Fibrosis",
+    "traditionalName": "Genetic Sahaja Vikara",
+    "category": "rare",
+    "dosha": "Vata",
+    "severity": "red",
+    "severityText": "🔴 URGENT: Seek urgent emergency medical attention.",
+    "icon": "fa-dna",
+    "synonyms": [
+      "CF",
+      "Genetic Lung Disease",
+      "Mucus Buildup"
+    ],
+    "overview": "Cystic Fibrosis is a genetic disorder causing thick sticky mucus accumulation in lungs and digestive tract.",
+    "symptoms": [
+      "Persistent cough with thick mucus",
+      "Frequent lung infections",
+      "Poor growth & greasy stools"
+    ],
+    "warningSigns": [
+      "Acute respiratory distress or severe hemoptysis"
+    ],
+    "selfCare": [
+      "Chest physiotherapy and specialized medical pulmonology care"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Supportive Rasayana herbs under specialist supervision",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Cystic Fibrosis",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "High calorie, enzyme-supplemented diet"
+    ],
+    "yoga": [
+      "Breathing exercises"
+    ],
+    "whenToSeekHelp": "Requires multidisciplinary cystic fibrosis medical care.",
+    "emergency": {
+      "required": true,
+      "notice": "🔴 URGENT MEDICAL NOTICE: Cystic Fibrosis requires immediate emergency hospital evaluation. Do not delay professional medical care.",
+      "action": "Seek immediate emergency hospital evaluation or call 112."
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Genetic CF requires specialized enzyme replacement and airway clearance therapies."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "hemophilia",
+    "name": "Hemophilia",
+    "traditionalName": "Sahaja Raktapitta",
+    "category": "rare",
+    "dosha": "Pitta",
+    "severity": "red",
+    "severityText": "🔴 URGENT: Seek urgent emergency medical attention.",
+    "icon": "fa-hand-holding-water",
+    "synonyms": [
+      "Blood Clotting Disorder",
+      "Excessive Bleeding"
+    ],
+    "overview": "Hemophilia is a genetic blood clotting factor deficiency leading to prolonged bleeding.",
+    "symptoms": [
+      "Uncontrolled bleeding after minor cuts",
+      "Large deep bruises & joint bleeding (Hemarthrosis)"
+    ],
+    "warningSigns": [
+      "Head injury, internal bleeding, or throat swelling"
+    ],
+    "selfCare": [
+      "Avoid trauma, contact sports, and blood thinners"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Supportive Rakta-cooling herbs",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Hemophilia",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Nourishing diet"
+    ],
+    "yoga": [
+      "Gentle movements"
+    ],
+    "whenToSeekHelp": "Go to ER for clotting factor infusion upon any head injury or major bleed.",
+    "emergency": {
+      "required": true,
+      "notice": "🔴 URGENT EMERGENCY NOTICE: For head trauma or active bleeding in Hemophilia, seek immediate hematology ER care for factor replacement!",
+      "action": "Seek immediate emergency hospital evaluation or call 112."
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Clotting factor concentrate infusion is the primary life-saving treatment."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "ehlers-danlos",
+    "name": "Ehlers-Danlos Syndrome",
+    "traditionalName": "Mamsa-Asthi Snayu Shithilata",
+    "category": "rare",
+    "dosha": "Vata",
+    "severity": "red",
+    "severityText": "🔴 URGENT: Seek urgent emergency medical attention.",
+    "icon": "fa-child",
+    "synonyms": [
+      "Hypermobile Joints",
+      "Genetic Connective Disorder"
+    ],
+    "overview": "Ehlers-Danlos Syndrome comprises connective tissue disorders marked by hypermobile joints and fragile skin.",
+    "symptoms": [
+      "Loose hyperflexible joints & frequent dislocations",
+      "Stretchy fragile skin & easy bruising"
+    ],
+    "warningSigns": [
+      "Vascular rupture signs or acute joint dislocation"
+    ],
+    "selfCare": [
+      "Physical therapy for joint stabilization"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Vata-pacifying oil massages & Rasayanas",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Ehlers-Danlos Syndrome",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Collagen-supporting nourishing diet"
+    ],
+    "yoga": [
+      "Gentle isometric strengthening"
+    ],
+    "whenToSeekHelp": "Consult geneticists and physical therapists specializing in connective tissue care.",
+    "emergency": {
+      "required": true,
+      "notice": "🔴 URGENT MEDICAL NOTICE: Ehlers-Danlos Syndrome requires immediate emergency hospital evaluation. Do not delay professional medical care.",
+      "action": "Seek immediate emergency hospital evaluation or call 112."
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Joint stabilization and physical therapy prevent recurrent dislocations."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "chikungunya",
+    "name": "Chikungunya",
+    "traditionalName": "Sandhi Jwara",
+    "category": "common",
+    "dosha": "Vata",
+    "severity": "orange",
+    "severityText": "🟠 MEDICAL EVALUATION: Professional medical assessment is recommended.",
+    "icon": "fa-bug",
+    "synonyms": [
+      "Mosquito-Borne Disease",
+      "Joint Pain",
+      "Fever"
+    ],
+    "overview": "Chikungunya is a mosquito-transmitted viral fever marked by severe debilitating joint pain.",
+    "symptoms": [
+      "Sudden fever & severe incapacitating joint pain",
+      "Skin rash & muscle aches"
+    ],
+    "warningSigns": [
+      "High unremitting fever or neurological symptoms"
+    ],
+    "selfCare": [
+      "Hydration, warm sesame oil application post-fever"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Amritarishta",
+        "type": "traditional",
+        "purpose": "Traditional supportive wellness approach for Chikungunya",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      },
+      {
+        "name": "Yograj Guggulu for joint stiffness",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Chikungunya",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Light easily digestible food"
+    ],
+    "yoga": [
+      "Gentle joint rotations"
+    ],
+    "whenToSeekHelp": "Get viral serology screening; consult doctor for persistent joint pain.",
+    "emergency": {
+      "required": false,
+      "notice": null,
+      "action": null
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Analgesic herbs soothe joint discomfort; complete rest speeds recovery."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "cancer",
+    "name": "Cancer Support",
+    "traditionalName": "Arbuda & Granthi",
+    "category": "chronic",
+    "dosha": "Tridosha",
+    "severity": "red",
+    "severityText": "🔴 URGENT: Seek urgent emergency medical attention.",
+    "icon": "fa-microscope",
+    "synonyms": [
+      "Tumor",
+      "Malignancy",
+      "Chemotherapy",
+      "Arbuda"
+    ],
+    "overview": "Integrative Ayurvedic supportive oncology focuses on tissue rejuvenation (Rasayana), immune support, and managing therapy side-effects alongside standard oncology.",
+    "symptoms": [
+      "Unexplained weight loss, lump, or chronic fatigue"
+    ],
+    "warningSigns": [
+      "Any non-healing ulcer, unusual bleeding, or rapidly growing mass"
+    ],
+    "selfCare": [
+      "Integrative oncology care under certified medical oncologists"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Ashwagandha, Guduchi, Curcumin for supportive Rasayana care",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Cancer Support",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Nutritious sattvic food"
+    ],
+    "yoga": [
+      "Gentle Pranayama"
+    ],
+    "whenToSeekHelp": "Immediate evaluation by oncologist for biopsy and staging.",
+    "emergency": {
+      "required": true,
+      "notice": "🔴 URGENT MEDICAL NOTICE: Cancer Support requires immediate emergency hospital evaluation. Do not delay professional medical care.",
+      "action": "Seek immediate emergency hospital evaluation or call 112."
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Standard medical oncology (surgery, chemo, radiation) is essential; Ayurveda serves as supportive Rasayana care."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  },
+  {
+    "id": "gbs",
+    "name": "Guillain-Barré Syndrome",
+    "traditionalName": "Sarvanga Vata Vyadhi",
+    "category": "rare",
+    "dosha": "Vata",
+    "severity": "red",
+    "severityText": "🔴 URGENT: Seek urgent emergency medical attention.",
+    "icon": "fa-network-wired",
+    "synonyms": [
+      "Guillain-Barre Syndrome",
+      "Nerve Damage",
+      "Paralysis"
+    ],
+    "overview": "GBS is a rare autoimmune nerve disorder causing ascending muscle weakness and paralysis.",
+    "symptoms": [
+      "Ascending weakness starting in legs and moving to arms",
+      "Tingling, numbness, & loss of reflexes"
+    ],
+    "warningSigns": [
+      "Breathing difficulty or swallowing weakness (Neurological Emergency)"
+    ],
+    "selfCare": [
+      "Immediate ICU hospital admission"
+    ],
+    "ayurvedicApproaches": [
+      {
+        "name": "Nerve rehabilitation Rasayanas after ICU recovery",
+        "type": "herbal_formulation",
+        "purpose": "Traditional supportive wellness approach for Guillain-Barré Syndrome",
+        "evidenceLevel": "limited",
+        "safety": "Traditional herbal preparation. Use under practitioner guidance.",
+        "contraindications": [
+          "Pregnancy or acute renal illness without clinical oversight"
+        ],
+        "sourceIds": [
+          "AYUSH-001",
+          "NCCIH-001"
+        ]
+      }
+    ],
+    "diet": [
+      "Hospital enteral care"
+    ],
+    "yoga": [
+      "Physical rehabilitation"
+    ],
+    "whenToSeekHelp": "RUSH TO ER IMMEDIATELY for IVIG or Plasmapheresis therapy.",
+    "emergency": {
+      "required": true,
+      "notice": "🔴 URGENT EMERGENCY NOTICE: GBS can cause respiratory muscle paralysis within hours. Seek immediate ICU emergency hospital care!",
+      "action": "Seek immediate emergency hospital evaluation or call 112."
+    },
+    "safety": {
+      "evidenceLevel": "limited",
+      "knownRisks": [
+        "Individual herb sensitivities or gastrointestinal discomfort",
+        "Delayed medical diagnosis if severe symptoms are left unassessed"
+      ],
+      "contraindications": [
+        "Do not substitute herbal remedies for emergency hospital care in severe or acute illness",
+        "Consult physician during pregnancy, lactation, or underlying organ failure"
+      ],
+      "interactions": [
+        "Potential metabolic herb-drug interactions with prescription pharmaceuticals"
+      ],
+      "notes": "Immunotherapy (IVIG/Plasmapheresis) in ICU is the standard life-saving treatment."
+    },
+    "sources": [
+      "AYUSH-001",
+      "NCCIH-001",
+      "WHO-TM-001"
+    ]
+  }
+]
